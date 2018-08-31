@@ -765,12 +765,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3032B8C11805A10100064F85 /* Build configuration list for PBXNativeTarget "Airfield-Manager" */;
 			buildPhases = (
+				FB83E0AB1A10458571759996 /* [CP] Check Pods Manifest.lock */,
 				3B521FB1A988A29605CAC158 /* 📦 Check Pods Manifest.lock */,
 				3032B88B1805A10100064F85 /* Sources */,
 				3032B88C1805A10100064F85 /* Frameworks */,
 				3032B88D1805A10100064F85 /* Resources */,
-				CAA7D0B4C63B36224367078A /* 📦 Embed Pods Frameworks */,
 				BB54D9C5C6C35220CC05A718 /* 📦 Copy Pods Resources */,
+				89C34ECA787A533BA36D532E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -940,6 +941,28 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		89C34ECA787A533BA36D532E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BB54D9C5C6C35220CC05A718 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -955,19 +978,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CAA7D0B4C63B36224367078A /* 📦 Embed Pods Frameworks */ = {
+		FB83E0AB1A10458571759996 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Airfield-Manager-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
