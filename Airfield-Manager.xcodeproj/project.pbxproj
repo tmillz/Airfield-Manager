@@ -10,15 +10,6 @@
 		3032B8931805A10100064F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8921805A10100064F85 /* Foundation.framework */; };
 		3032B8951805A10100064F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8941805A10100064F85 /* CoreGraphics.framework */; };
 		3032B8971805A10100064F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8961805A10100064F85 /* UIKit.framework */; };
-		3032B89D1805A10100064F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032B89B1805A10100064F85 /* InfoPlist.strings */; };
-		3032B89F1805A10100064F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B89E1805A10100064F85 /* main.m */; };
-		3032B8A31805A10100064F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A21805A10100064F85 /* AppDelegate.m */; };
-		3032B8A61805A10100064F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8A41805A10100064F85 /* Main.storyboard */; };
-		3032B8A91805A10100064F85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A81805A10100064F85 /* RootViewController.m */; };
-		3032B8CE1805A1BC00064F85 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8CD1805A1BC00064F85 /* HomeViewController.m */; };
-		3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D01805A1D200064F85 /* MenuViewController.m */; };
-		3032B8E71805A26500064F85 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E61805A26500064F85 /* NavigationController.m */; };
-		3032B8EA1805A4BF00064F85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E91805A4BF00064F85 /* SecondViewController.m */; };
 		BFE952844DB5ED916F9A5F3D /* libPods-Airfield-Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */; };
 		CE070D8019D519B500ECE647 /* afi10_1001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7419D519B500ECE647 /* afi10_1001.pdf */; };
 		CE070D8119D519B500ECE647 /* afi10_1801.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7519D519B500ECE647 /* afi10_1801.pdf */; };
@@ -31,25 +22,17 @@
 		CE070D8919D519B500ECE647 /* afjman11_213.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7D19D519B500ECE647 /* afjman11_213.pdf */; };
 		CE070D8A19D519B500ECE647 /* afman32_1084.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7E19D519B500ECE647 /* afman32_1084.pdf */; };
 		CE070D8B19D519B500ECE647 /* afpam91_212.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7F19D519B500ECE647 /* afpam91_212.pdf */; };
-		CE08682D1A56145A00C5F585 /* PanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08682C1A56145A00C5F585 /* PanAnimationController.m */; };
-		CE0868301A56153600C5F585 /* ReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08682F1A56153600C5F585 /* ReversibleAnimationController.m */; };
 		CE20F9A019D6634400C7DB48 /* ufc_3_260_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F99F19D6634400C7DB48 /* ufc_3_260_01.pdf */; };
 		CE20F9AA19D6680F00C7DB48 /* ufc_3_260_02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A419D6680F00C7DB48 /* ufc_3_260_02.pdf */; };
 		CE20F9AB19D6680F00C7DB48 /* ufc_3_260_03.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A519D6680F00C7DB48 /* ufc_3_260_03.pdf */; };
 		CE20F9AC19D6680F00C7DB48 /* ufc_3_270_05.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A619D6680F00C7DB48 /* ufc_3_270_05.pdf */; };
 		CE20F9AD19D6680F00C7DB48 /* ufc_3_270_06.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A719D6680F00C7DB48 /* ufc_3_270_06.pdf */; };
 		CE20F9AE19D6680F00C7DB48 /* ufc_3_535_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A819D6680F00C7DB48 /* ufc_3_535_01.pdf */; };
-		CE2EEE8619C146AC0026F03B /* AircraftDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EEE8519C146AC0026F03B /* AircraftDetails.m */; };
-		CE2EEE8919C14C320026F03B /* AircraftDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EEE8819C14C320026F03B /* AircraftDetailViewController.m */; };
 		CE3279A01A79EE5D004E66CD /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE32799B1A79EE5D004E66CD /* FastPdfKit.framework */; };
 		CE3279A21A79EE5D004E66CD /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE32799E1A79EE5D004E66CD /* FPKReaderBundle.bundle */; };
 		CE3279A31A79EE5D004E66CD /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE32799F1A79EE5D004E66CD /* Snippets.txt */; };
 		CE3279A51A79F511004E66CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3279A41A79F511004E66CD /* CoreMedia.framework */; };
 		CE3279A71A79F51A004E66CD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3279A61A79F51A004E66CD /* AVKit.framework */; };
-		CE5660E119BBDB2900F00310 /* AircraftInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5660E019BBDB2900F00310 /* AircraftInfo.m */; };
-		CE5660E419BC0F4400F00310 /* AircraftDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5660E319BC0F4400F00310 /* AircraftDatabase.m */; };
-		CE592C9E19CA76600097E2A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE592C9D19CA76600097E2A6 /* ViewController.m */; };
-		CE592CA119CA76FE0097E2A6 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE592CA019CA76FE0097E2A6 /* PageContentViewController.m */; };
 		CE61878819C7DE5F00215283 /* Slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61877D19C7DE5F00215283 /* Slide1.jpg */; };
 		CE61878919C7DE5F00215283 /* Slide2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61877E19C7DE5F00215283 /* Slide2.jpg */; };
 		CE61878A19C7DE5F00215283 /* Slide3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61877F19C7DE5F00215283 /* Slide3.jpg */; };
@@ -61,9 +44,6 @@
 		CE61879019C7DE5F00215283 /* Slide9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61878519C7DE5F00215283 /* Slide9.jpg */; };
 		CE61879119C7DE5F00215283 /* Slide10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61878619C7DE5F00215283 /* Slide10.jpg */; };
 		CE61879219C7DE5F00215283 /* Slide11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61878719C7DE5F00215283 /* Slide11.jpg */; };
-		CE61B00619AD6ECF0020151A /* BowmonkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B00519AD6ECF0020151A /* BowmonkViewController.m */; };
-		CE61B05019AD83510020151A /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B04F19AD83510020151A /* LinksViewController.m */; };
-		CE61B05319AD84150020151A /* DiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61B05219AD84150020151A /* DiscViewController.m */; };
 		CE61B06119B118950020151A /* afi13_204v2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE61B06019B118950020151A /* afi13_204v2.pdf */; };
 		CE61B06319B11BB10020151A /* afi13_204v1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE61B06219B11BB10020151A /* afi13_204v1.pdf */; };
 		CE61B06719B14B5F0020151A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE61B06619B14B5F0020151A /* AVFoundation.framework */; };
@@ -89,14 +69,8 @@
 		CE6348E519D7568A00E405C1 /* AC150_5340_1l.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE6348E119D7568A00E405C1 /* AC150_5340_1l.pdf */; };
 		CE6348E619D7568A00E405C1 /* AC150_5345_44j.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE6348E219D7568A00E405C1 /* AC150_5345_44j.pdf */; };
 		CE6348E719D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE6348E319D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf */; };
-		CE730B3E1A32C901004CD936 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE730B3D1A32C901004CD936 /* TabViewController.m */; };
-		CE730B411A34239F004CD936 /* CalcViewControllerBAppch.m in Sources */ = {isa = PBXBuildFile; fileRef = CE730B401A34239F004CD936 /* CalcViewControllerBAppch.m */; };
 		CE730B431A3427A9004CD936 /* seven_one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730B421A3427A9004CD936 /* seven_one@2x.png */; };
 		CE730B451A34296C004CD936 /* fifty_one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730B441A34296C004CD936 /* fifty_one@2x.png */; };
-		CE7E09FA19D5290E00581049 /* UFCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E09F919D5290E00581049 /* UFCTableViewController.m */; };
-		CE7E09FD19D52BCC00581049 /* ETLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E09FC19D52BCC00581049 /* ETLTableViewController.m */; };
-		CE7E0A0019D52BEA00581049 /* FAATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E09FF19D52BEA00581049 /* FAATableViewController.m */; };
-		CE7E0A0319D52BFA00581049 /* MAJCOMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E0A0219D52BFA00581049 /* MAJCOMTableViewController.m */; };
 		CEB3FDA91A47EF4E001A0C14 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD8A1A47EF4E001A0C14 /* SVWebViewController.strings */; };
 		CEB3FDAA1A47EF4E001A0C14 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FD941A47EF4E001A0C14 /* SVModalWebViewController.m */; };
 		CEB3FDAB1A47EF4E001A0C14 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD951A47EF4E001A0C14 /* SVWebViewController.bundle */; };
@@ -110,9 +84,6 @@
 		CEB3FDB31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FDA31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m */; };
 		CEB3FDB41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FDA41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png */; };
 		CEB3FDB51A47EF4E001A0C14 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FDA61A47EF4E001A0C14 /* SVWebViewControllerActivity.m */; };
-		CEB876111A5266920011AE0B /* CalcViewControllerATrans.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB876101A5266920011AE0B /* CalcViewControllerATrans.m */; };
-		CEB876141A5266BD0011AE0B /* CalcViewControllerAAppch.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB876131A5266BD0011AE0B /* CalcViewControllerAAppch.m */; };
-		CECD0C431A4507B9007B311F /* FormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD0C421A4507B9007B311F /* FormsViewController.m */; };
 		CED0B20119B4301E00282472 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0B20019B4301E00282472 /* libsqlite3.dylib */; };
 		CED142CF19E644AE00364658 /* afi13_204v1_accsup.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142BF19E644AE00364658 /* afi13_204v1_accsup.pdf */; };
 		CED142D019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142C019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf */; };
@@ -130,7 +101,6 @@
 		CED142DC19E644AE00364658 /* afi13_204v3_amcsup_i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142CC19E644AE00364658 /* afi13_204v3_amcsup_i.pdf */; };
 		CED142DD19E644AE00364658 /* afi13_204v3_pacafsup_i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142CD19E644AE00364658 /* afi13_204v3_pacafsup_i.pdf */; };
 		CED142DE19E644AE00364658 /* afi13_204v3_usafesup_i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142CE19E644AE00364658 /* afi13_204v3_usafesup_i.pdf */; };
-		CEDCBE1E19BD159A0054F6FD /* AircraftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDCBE1D19BD159A0054F6FD /* AircraftTableViewController.m */; };
 		CEDCBE2119BD59C60054F6FD /* database.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2019BD596C0054F6FD /* database.sqlite3 */; };
 		CEDCBE2E19BD5E3E0054F6FD /* ic_action_airplane_mode_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2219BD5E3E0054F6FD /* ic_action_airplane_mode_on@2x.png */; };
 		CEDCBE2F19BD5E3E0054F6FD /* ic_action_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2319BD5E3E0054F6FD /* ic_action_email@2x.png */; };
@@ -144,19 +114,52 @@
 		CEDCBE3719BD5E3E0054F6FD /* ic_action_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2B19BD5E3E0054F6FD /* ic_action_warning@2x.png */; };
 		CEDCBE3819BD5E3E0054F6FD /* ic_action_web_site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2C19BD5E3E0054F6FD /* ic_action_web_site@2x.png */; };
 		CEDCBE3919BD5E3E0054F6FD /* ic_calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2D19BD5E3E0054F6FD /* ic_calculator@2x.png */; };
-		CEDF2C7A19D39702002DB9D6 /* AfiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF2C7919D39702002DB9D6 /* AfiTableViewController.m */; };
-		CEF032F9199B2177003CEACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF032F8199B2177003CEACD /* Images.xcassets */; };
-		CEF03306199B2AA8003CEACD /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF03305199B2AA8003CEACD /* CalcViewController.m */; };
 		DE41876F1CC1851F00B0789D /* afi13_204v3_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */; };
 		DE65D42C1D9D859F00C895A7 /* afi13_213_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */; };
+		DE81EB42213B4064008A8FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */; };
+		DE81EB43213B4064008A8FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */; };
+		DE81EB44213B4064008A8FE5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF7213B4064008A8FE5 /* LICENSE */; };
+		DE81EB45213B4064008A8FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF8213B4064008A8FE5 /* Main.storyboard */; };
+		DE81EB46213B4064008A8FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAFA213B4064008A8FE5 /* Images.xcassets */; };
+		DE81EB47213B4064008A8FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EAFB213B4064008A8FE5 /* AppDelegate.m */; };
+		DE81EB48213B4064008A8FE5 /* Airfield-Manager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAFD213B4064008A8FE5 /* Airfield-Manager-Info.plist */; };
+		DE81EB49213B4064008A8FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EAFE213B4064008A8FE5 /* main.m */; };
+		DE81EB4A213B4064008A8FE5 /* BowmonkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */; };
+		DE81EB4B213B4064008A8FE5 /* ETLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */; };
+		DE81EB4C213B4064008A8FE5 /* MapTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB08213B4064008A8FE5 /* MapTabViewController.m */; };
+		DE81EB4D213B4064008A8FE5 /* CalcViewControllerATrans.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB09213B4064008A8FE5 /* CalcViewControllerATrans.m */; };
+		DE81EB4E213B4064008A8FE5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB0A213B4064008A8FE5 /* RootViewController.m */; };
+		DE81EB4F213B4064008A8FE5 /* AircraftInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */; };
+		DE81EB50213B4064008A8FE5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB0C213B4064008A8FE5 /* HomeViewController.m */; };
+		DE81EB51213B4064008A8FE5 /* LocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB0E213B4064008A8FE5 /* LocationInfo.m */; };
+		DE81EB52213B4064008A8FE5 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB10213B4064008A8FE5 /* TabViewController.m */; };
+		DE81EB53213B4064008A8FE5 /* UFCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB12213B4064008A8FE5 /* UFCTableViewController.m */; };
+		DE81EB54213B4064008A8FE5 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB13213B4064008A8FE5 /* PageContentViewController.m */; };
+		DE81EB55213B4064008A8FE5 /* AircraftDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB18213B4064008A8FE5 /* AircraftDetailViewController.m */; };
+		DE81EB56213B4064008A8FE5 /* MAJCOMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB19213B4064008A8FE5 /* MAJCOMTableViewController.m */; };
+		DE81EB57213B4064008A8FE5 /* LinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB1A213B4064008A8FE5 /* LinksViewController.m */; };
+		DE81EB58213B4064008A8FE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB1B213B4064008A8FE5 /* ViewController.m */; };
+		DE81EB59213B4064008A8FE5 /* CalcViewControllerBAppch.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB1C213B4064008A8FE5 /* CalcViewControllerBAppch.m */; };
+		DE81EB5A213B4064008A8FE5 /* LocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB1D213B4064008A8FE5 /* LocationTableViewController.m */; };
+		DE81EB5B213B4064008A8FE5 /* AircraftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */; };
+		DE81EB5C213B4064008A8FE5 /* AfiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB22213B4064008A8FE5 /* AfiTableViewController.m */; };
+		DE81EB5D213B4064008A8FE5 /* AircraftDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB26213B4064008A8FE5 /* AircraftDetails.m */; };
+		DE81EB5E213B4064008A8FE5 /* ReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB27213B4064008A8FE5 /* ReversibleAnimationController.m */; };
+		DE81EB5F213B4064008A8FE5 /* AircraftDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB28213B4064008A8FE5 /* AircraftDatabase.m */; };
+		DE81EB60213B4064008A8FE5 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB29213B4064008A8FE5 /* LocationDetailViewController.m */; };
+		DE81EB61213B4064008A8FE5 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB2C213B4064008A8FE5 /* NavigationController.m */; };
+		DE81EB62213B4064008A8FE5 /* FormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB2F213B4064008A8FE5 /* FormsViewController.m */; };
+		DE81EB63213B4064008A8FE5 /* DiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB30213B4064008A8FE5 /* DiscViewController.m */; };
+		DE81EB64213B4064008A8FE5 /* CalcViewControllerAAppch.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB34213B4064008A8FE5 /* CalcViewControllerAAppch.m */; };
+		DE81EB65213B4064008A8FE5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB36213B4064008A8FE5 /* SecondViewController.m */; };
+		DE81EB66213B4064008A8FE5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB37213B4064008A8FE5 /* MenuViewController.m */; };
+		DE81EB67213B4064008A8FE5 /* FAATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB38213B4064008A8FE5 /* FAATableViewController.m */; };
+		DE81EB68213B4064008A8FE5 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB39213B4064008A8FE5 /* CalcViewController.m */; };
+		DE81EB69213B4064008A8FE5 /* PanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */; };
+		DE81EB6A213B4064008A8FE5 /* Airfield-Manager.ipa in Resources */ = {isa = PBXBuildFile; fileRef = DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */; };
 		DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC41D074AC1002396F9 /* 332.pdf */; };
 		DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC61D074D3A002396F9 /* dd175.pdf */; };
 		DE97EDC91D08B106002396F9 /* airfield-manager-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC81D08B106002396F9 /* airfield-manager-icon.png */; };
-		DEB737FC1C6ADE9F0087A84F /* MapTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB737FB1C6ADE9F0087A84F /* MapTabViewController.m */; };
-		DEB738021C6E69B70087A84F /* LocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB738011C6E69B70087A84F /* LocationInfo.m */; };
-		DEB738051C6E80080087A84F /* LocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB738041C6E80080087A84F /* LocationTableViewController.m */; };
-		DEB7380D1C7670800087A84F /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB7380C1C7670800087A84F /* LocationDetailViewController.m */; };
-		DEE307CA1CFE6BD400731B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE307C91CFE6BD400731B38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,24 +167,7 @@
 		3032B8921805A10100064F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3032B8941805A10100064F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3032B8961805A10100064F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3032B89A1805A10100064F85 /* Airfield-Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Airfield-Manager-Info.plist"; sourceTree = "<group>"; };
-		3032B89C1805A10100064F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3032B89E1805A10100064F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3032B8A01805A10100064F85 /* Airfield-Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airfield-Manager-Prefix.pch"; sourceTree = "<group>"; };
-		3032B8A11805A10100064F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3032B8A21805A10100064F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3032B8A51805A10100064F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3032B8A71805A10100064F85 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		3032B8A81805A10100064F85 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3032B8B11805A10100064F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3032B8CC1805A1BC00064F85 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		3032B8CD1805A1BC00064F85 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		3032B8CF1805A1D200064F85 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		3032B8D01805A1D200064F85 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		3032B8E51805A26500064F85 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		3032B8E61805A26500064F85 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		3032B8E81805A4BF00064F85 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3032B8E91805A4BF00064F85 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airfield-Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0DB851671C34C60B91D4E /* Pods-Airfield-Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airfield-Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager.release.xcconfig"; sourceTree = "<group>"; };
 		7F11B62D0F1B5AD14654E30A /* Pods-Airfield-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airfield-Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,10 +182,6 @@
 		CE070D7D19D519B500ECE647 /* afjman11_213.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afjman11_213.pdf; sourceTree = "<group>"; };
 		CE070D7E19D519B500ECE647 /* afman32_1084.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afman32_1084.pdf; sourceTree = "<group>"; };
 		CE070D7F19D519B500ECE647 /* afpam91_212.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afpam91_212.pdf; sourceTree = "<group>"; };
-		CE08682B1A56145A00C5F585 /* PanAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanAnimationController.h; sourceTree = "<group>"; };
-		CE08682C1A56145A00C5F585 /* PanAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanAnimationController.m; sourceTree = "<group>"; };
-		CE08682E1A56153600C5F585 /* ReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversibleAnimationController.h; sourceTree = "<group>"; };
-		CE08682F1A56153600C5F585 /* ReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReversibleAnimationController.m; sourceTree = "<group>"; };
 		CE20F99F19D6634400C7DB48 /* ufc_3_260_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_260_01.pdf; sourceTree = "<group>"; };
 		CE20F9A119D6634A00C7DB48 /* ufc_3_535_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_535_01.pdf; sourceTree = "<group>"; };
 		CE20F9A319D6680F00C7DB48 /* ufc_3_260_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_260_01.pdf; sourceTree = "<group>"; };
@@ -208,24 +190,12 @@
 		CE20F9A619D6680F00C7DB48 /* ufc_3_270_05.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_270_05.pdf; sourceTree = "<group>"; };
 		CE20F9A719D6680F00C7DB48 /* ufc_3_270_06.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_270_06.pdf; sourceTree = "<group>"; };
 		CE20F9A819D6680F00C7DB48 /* ufc_3_535_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_535_01.pdf; sourceTree = "<group>"; };
-		CE2EEE8419C146AC0026F03B /* AircraftDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDetails.h; sourceTree = "<group>"; };
-		CE2EEE8519C146AC0026F03B /* AircraftDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDetails.m; sourceTree = "<group>"; };
-		CE2EEE8719C14C320026F03B /* AircraftDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDetailViewController.h; sourceTree = "<group>"; };
-		CE2EEE8819C14C320026F03B /* AircraftDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDetailViewController.m; sourceTree = "<group>"; };
 		CE32799B1A79EE5D004E66CD /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
 		CE32799D1A79EE5D004E66CD /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
 		CE32799E1A79EE5D004E66CD /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
 		CE32799F1A79EE5D004E66CD /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
 		CE3279A41A79F511004E66CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CE3279A61A79F51A004E66CD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		CE5660DF19BBDB2900F00310 /* AircraftInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftInfo.h; sourceTree = "<group>"; };
-		CE5660E019BBDB2900F00310 /* AircraftInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftInfo.m; sourceTree = "<group>"; };
-		CE5660E219BC0F4400F00310 /* AircraftDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDatabase.h; sourceTree = "<group>"; };
-		CE5660E319BC0F4400F00310 /* AircraftDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDatabase.m; sourceTree = "<group>"; };
-		CE592C9C19CA76600097E2A6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE592C9D19CA76600097E2A6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE592C9F19CA76FE0097E2A6 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
-		CE592CA019CA76FE0097E2A6 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		CE61877D19C7DE5F00215283 /* Slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide1.jpg; sourceTree = "<group>"; };
 		CE61877E19C7DE5F00215283 /* Slide2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide2.jpg; sourceTree = "<group>"; };
 		CE61877F19C7DE5F00215283 /* Slide3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide3.jpg; sourceTree = "<group>"; };
@@ -237,12 +207,6 @@
 		CE61878519C7DE5F00215283 /* Slide9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide9.jpg; sourceTree = "<group>"; };
 		CE61878619C7DE5F00215283 /* Slide10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide10.jpg; sourceTree = "<group>"; };
 		CE61878719C7DE5F00215283 /* Slide11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide11.jpg; sourceTree = "<group>"; };
-		CE61B00419AD6ECF0020151A /* BowmonkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowmonkViewController.h; sourceTree = "<group>"; };
-		CE61B00519AD6ECF0020151A /* BowmonkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowmonkViewController.m; sourceTree = "<group>"; };
-		CE61B04E19AD83510020151A /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
-		CE61B04F19AD83510020151A /* LinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksViewController.m; sourceTree = "<group>"; };
-		CE61B05119AD84150020151A /* DiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscViewController.h; sourceTree = "<group>"; };
-		CE61B05219AD84150020151A /* DiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscViewController.m; sourceTree = "<group>"; };
 		CE61B06019B118950020151A /* afi13_204v2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v2.pdf; sourceTree = "<group>"; };
 		CE61B06219B11BB10020151A /* afi13_204v1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v1.pdf; sourceTree = "<group>"; };
 		CE61B06619B14B5F0020151A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -268,20 +232,8 @@
 		CE6348E119D7568A00E405C1 /* AC150_5340_1l.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC150_5340_1l.pdf; sourceTree = "<group>"; };
 		CE6348E219D7568A00E405C1 /* AC150_5345_44j.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC150_5345_44j.pdf; sourceTree = "<group>"; };
 		CE6348E319D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC150_5300_13A_chg1_interactive.pdf; sourceTree = "<group>"; };
-		CE730B3C1A32C901004CD936 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
-		CE730B3D1A32C901004CD936 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
-		CE730B3F1A34239F004CD936 /* CalcViewControllerBAppch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerBAppch.h; sourceTree = "<group>"; };
-		CE730B401A34239F004CD936 /* CalcViewControllerBAppch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerBAppch.m; sourceTree = "<group>"; };
 		CE730B421A3427A9004CD936 /* seven_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven_one@2x.png"; sourceTree = "<group>"; };
 		CE730B441A34296C004CD936 /* fifty_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fifty_one@2x.png"; sourceTree = "<group>"; };
-		CE7E09F819D5290E00581049 /* UFCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFCTableViewController.h; sourceTree = "<group>"; };
-		CE7E09F919D5290E00581049 /* UFCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFCTableViewController.m; sourceTree = "<group>"; };
-		CE7E09FB19D52BCC00581049 /* ETLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLTableViewController.h; sourceTree = "<group>"; };
-		CE7E09FC19D52BCC00581049 /* ETLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETLTableViewController.m; sourceTree = "<group>"; };
-		CE7E09FE19D52BEA00581049 /* FAATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAATableViewController.h; sourceTree = "<group>"; };
-		CE7E09FF19D52BEA00581049 /* FAATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAATableViewController.m; sourceTree = "<group>"; };
-		CE7E0A0119D52BFA00581049 /* MAJCOMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAJCOMTableViewController.h; sourceTree = "<group>"; };
-		CE7E0A0219D52BFA00581049 /* MAJCOMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAJCOMTableViewController.m; sourceTree = "<group>"; };
 		CEB3FD8B1A47EF4E001A0C14 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		CEB3FD8C1A47EF4E001A0C14 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
 		CEB3FD8D1A47EF4E001A0C14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
@@ -309,12 +261,6 @@
 		CEB3FDA61A47EF4E001A0C14 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
 		CEB3FDA71A47EF4E001A0C14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
 		CEB3FDA81A47EF4E001A0C14 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
-		CEB8760F1A5266920011AE0B /* CalcViewControllerATrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerATrans.h; sourceTree = "<group>"; };
-		CEB876101A5266920011AE0B /* CalcViewControllerATrans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerATrans.m; sourceTree = "<group>"; };
-		CEB876121A5266BC0011AE0B /* CalcViewControllerAAppch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerAAppch.h; sourceTree = "<group>"; };
-		CEB876131A5266BD0011AE0B /* CalcViewControllerAAppch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerAAppch.m; sourceTree = "<group>"; };
-		CECD0C411A4507B9007B311F /* FormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsViewController.h; sourceTree = "<group>"; };
-		CECD0C421A4507B9007B311F /* FormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsViewController.m; sourceTree = "<group>"; };
 		CED0B20019B4301E00282472 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CED142BF19E644AE00364658 /* afi13_204v1_accsup.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v1_accsup.pdf; sourceTree = "<group>"; };
 		CED142C019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v1_afmcsup_i.pdf; sourceTree = "<group>"; };
@@ -332,8 +278,6 @@
 		CED142CC19E644AE00364658 /* afi13_204v3_amcsup_i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_amcsup_i.pdf; sourceTree = "<group>"; };
 		CED142CD19E644AE00364658 /* afi13_204v3_pacafsup_i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_pacafsup_i.pdf; sourceTree = "<group>"; };
 		CED142CE19E644AE00364658 /* afi13_204v3_usafesup_i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_usafesup_i.pdf; sourceTree = "<group>"; };
-		CEDCBE1C19BD159A0054F6FD /* AircraftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftTableViewController.h; sourceTree = "<group>"; };
-		CEDCBE1D19BD159A0054F6FD /* AircraftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftTableViewController.m; sourceTree = "<group>"; };
 		CEDCBE2019BD596C0054F6FD /* database.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite3; sourceTree = "<group>"; };
 		CEDCBE2219BD5E3E0054F6FD /* ic_action_airplane_mode_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_action_airplane_mode_on@2x.png"; sourceTree = "<group>"; };
 		CEDCBE2319BD5E3E0054F6FD /* ic_action_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_action_email@2x.png"; sourceTree = "<group>"; };
@@ -347,25 +291,86 @@
 		CEDCBE2B19BD5E3E0054F6FD /* ic_action_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_action_warning@2x.png"; sourceTree = "<group>"; };
 		CEDCBE2C19BD5E3E0054F6FD /* ic_action_web_site@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_action_web_site@2x.png"; sourceTree = "<group>"; };
 		CEDCBE2D19BD5E3E0054F6FD /* ic_calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_calculator@2x.png"; sourceTree = "<group>"; };
-		CEDF2C7819D39702002DB9D6 /* AfiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfiTableViewController.h; sourceTree = "<group>"; };
-		CEDF2C7919D39702002DB9D6 /* AfiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfiTableViewController.m; sourceTree = "<group>"; };
-		CEF032F8199B2177003CEACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Airfield-Manager/Images.xcassets"; sourceTree = "<group>"; };
-		CEF03304199B2AA8003CEACD /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
-		CEF03305199B2AA8003CEACD /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
 		DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_1.pdf; sourceTree = "<group>"; };
 		DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_213_1.pdf; sourceTree = "<group>"; };
+		DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE81EAF5213B4064008A8FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE81EAF6213B4064008A8FE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE81EAF7213B4064008A8FE5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE81EAF9213B4064008A8FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		DE81EAFA213B4064008A8FE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE81EAFB213B4064008A8FE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE81EAFD213B4064008A8FE5 /* Airfield-Manager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Airfield-Manager-Info.plist"; sourceTree = "<group>"; };
+		DE81EAFE213B4064008A8FE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE81EAFF213B4064008A8FE5 /* Airfield-Manager-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Airfield-Manager-Prefix.pch"; sourceTree = "<group>"; };
+		DE81EB01213B4064008A8FE5 /* AircraftDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDatabase.h; sourceTree = "<group>"; };
+		DE81EB02213B4064008A8FE5 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
+		DE81EB03213B4064008A8FE5 /* ReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversibleAnimationController.h; sourceTree = "<group>"; };
+		DE81EB04213B4064008A8FE5 /* AircraftDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDetails.h; sourceTree = "<group>"; };
+		DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BowmonkViewController.m; sourceTree = "<group>"; };
+		DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETLTableViewController.m; sourceTree = "<group>"; };
+		DE81EB07213B4064008A8FE5 /* AfiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfiTableViewController.h; sourceTree = "<group>"; };
+		DE81EB08213B4064008A8FE5 /* MapTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTabViewController.m; sourceTree = "<group>"; };
+		DE81EB09213B4064008A8FE5 /* CalcViewControllerATrans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerATrans.m; sourceTree = "<group>"; };
+		DE81EB0A213B4064008A8FE5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftInfo.m; sourceTree = "<group>"; };
+		DE81EB0C213B4064008A8FE5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DE81EB0D213B4064008A8FE5 /* DiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscViewController.h; sourceTree = "<group>"; };
+		DE81EB0E213B4064008A8FE5 /* LocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInfo.m; sourceTree = "<group>"; };
+		DE81EB0F213B4064008A8FE5 /* FormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsViewController.h; sourceTree = "<group>"; };
+		DE81EB10213B4064008A8FE5 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		DE81EB11213B4064008A8FE5 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		DE81EB12213B4064008A8FE5 /* UFCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFCTableViewController.m; sourceTree = "<group>"; };
+		DE81EB13213B4064008A8FE5 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		DE81EB14213B4064008A8FE5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		DE81EB15213B4064008A8FE5 /* FAATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAATableViewController.h; sourceTree = "<group>"; };
+		DE81EB16213B4064008A8FE5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DE81EB17213B4064008A8FE5 /* CalcViewControllerAAppch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerAAppch.h; sourceTree = "<group>"; };
+		DE81EB18213B4064008A8FE5 /* AircraftDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDetailViewController.m; sourceTree = "<group>"; };
+		DE81EB19213B4064008A8FE5 /* MAJCOMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAJCOMTableViewController.m; sourceTree = "<group>"; };
+		DE81EB1A213B4064008A8FE5 /* LinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinksViewController.m; sourceTree = "<group>"; };
+		DE81EB1B213B4064008A8FE5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE81EB1C213B4064008A8FE5 /* CalcViewControllerBAppch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerBAppch.m; sourceTree = "<group>"; };
+		DE81EB1D213B4064008A8FE5 /* LocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewController.m; sourceTree = "<group>"; };
+		DE81EB1E213B4064008A8FE5 /* PanAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanAnimationController.h; sourceTree = "<group>"; };
+		DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftTableViewController.m; sourceTree = "<group>"; };
+		DE81EB20213B4064008A8FE5 /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		DE81EB21213B4064008A8FE5 /* CalcViewControllerATrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerATrans.h; sourceTree = "<group>"; };
+		DE81EB22213B4064008A8FE5 /* AfiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfiTableViewController.m; sourceTree = "<group>"; };
+		DE81EB23213B4064008A8FE5 /* MapTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTabViewController.h; sourceTree = "<group>"; };
+		DE81EB24213B4064008A8FE5 /* ETLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLTableViewController.h; sourceTree = "<group>"; };
+		DE81EB25213B4064008A8FE5 /* BowmonkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BowmonkViewController.h; sourceTree = "<group>"; };
+		DE81EB26213B4064008A8FE5 /* AircraftDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDetails.m; sourceTree = "<group>"; };
+		DE81EB27213B4064008A8FE5 /* ReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReversibleAnimationController.m; sourceTree = "<group>"; };
+		DE81EB28213B4064008A8FE5 /* AircraftDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftDatabase.m; sourceTree = "<group>"; };
+		DE81EB29213B4064008A8FE5 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
+		DE81EB2A213B4064008A8FE5 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		DE81EB2B213B4064008A8FE5 /* UFCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFCTableViewController.h; sourceTree = "<group>"; };
+		DE81EB2C213B4064008A8FE5 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		DE81EB2D213B4064008A8FE5 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		DE81EB2E213B4064008A8FE5 /* LocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInfo.h; sourceTree = "<group>"; };
+		DE81EB2F213B4064008A8FE5 /* FormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsViewController.m; sourceTree = "<group>"; };
+		DE81EB30213B4064008A8FE5 /* DiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscViewController.m; sourceTree = "<group>"; };
+		DE81EB31213B4064008A8FE5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DE81EB32213B4064008A8FE5 /* AircraftInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftInfo.h; sourceTree = "<group>"; };
+		DE81EB33213B4064008A8FE5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DE81EB34213B4064008A8FE5 /* CalcViewControllerAAppch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerAAppch.m; sourceTree = "<group>"; };
+		DE81EB35213B4064008A8FE5 /* AircraftDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftDetailViewController.h; sourceTree = "<group>"; };
+		DE81EB36213B4064008A8FE5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DE81EB37213B4064008A8FE5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		DE81EB38213B4064008A8FE5 /* FAATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAATableViewController.m; sourceTree = "<group>"; };
+		DE81EB39213B4064008A8FE5 /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		DE81EB3A213B4064008A8FE5 /* AircraftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftTableViewController.h; sourceTree = "<group>"; };
+		DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanAnimationController.m; sourceTree = "<group>"; };
+		DE81EB3C213B4064008A8FE5 /* LocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewController.h; sourceTree = "<group>"; };
+		DE81EB3D213B4064008A8FE5 /* CalcViewControllerBAppch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerBAppch.h; sourceTree = "<group>"; };
+		DE81EB3E213B4064008A8FE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE81EB3F213B4064008A8FE5 /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
+		DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Airfield-Manager.ipa"; sourceTree = "<group>"; };
+		DE81EB41213B4064008A8FE5 /* MAJCOMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAJCOMTableViewController.h; sourceTree = "<group>"; };
 		DE97EDC41D074AC1002396F9 /* 332.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 332.pdf; sourceTree = "<group>"; };
 		DE97EDC61D074D3A002396F9 /* dd175.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dd175.pdf; sourceTree = "<group>"; };
 		DE97EDC81D08B106002396F9 /* airfield-manager-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airfield-manager-icon.png"; sourceTree = "<group>"; };
-		DEB737FA1C6ADE9F0087A84F /* MapTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTabViewController.h; sourceTree = "<group>"; };
-		DEB737FB1C6ADE9F0087A84F /* MapTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTabViewController.m; sourceTree = "<group>"; };
-		DEB738001C6E69B70087A84F /* LocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInfo.h; sourceTree = "<group>"; };
-		DEB738011C6E69B70087A84F /* LocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInfo.m; sourceTree = "<group>"; };
-		DEB738031C6E80080087A84F /* LocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewController.h; sourceTree = "<group>"; };
-		DEB738041C6E80080087A84F /* LocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewController.m; sourceTree = "<group>"; };
-		DEB7380B1C7670800087A84F /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
-		DEB7380C1C7670800087A84F /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
-		DEE307C91CFE6BD400731B38 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,9 +408,8 @@
 		3032B8861805A10100064F85 = {
 			isa = PBXGroup;
 			children = (
+				DE81EAF1213B4064008A8FE5 /* Airfield-Manager */,
 				CEB3FD891A47EF4E001A0C14 /* SVWebViewController */,
-				CEF032F8199B2177003CEACD /* Images.xcassets */,
-				3032B8981805A10100064F85 /* AirfieldManagerStoryboards */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
 				CE61B05A19AFEE990020151A /* Resources */,
@@ -448,101 +452,6 @@
 				332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3032B8981805A10100064F85 /* AirfieldManagerStoryboards */ = {
-			isa = PBXGroup;
-			children = (
-				3032B8FB1805AB4600064F85 /* Controllers */,
-				3032B8A11805A10100064F85 /* AppDelegate.h */,
-				3032B8A21805A10100064F85 /* AppDelegate.m */,
-				3032B8A41805A10100064F85 /* Main.storyboard */,
-				DEE307C91CFE6BD400731B38 /* LaunchScreen.storyboard */,
-				3032B8991805A10100064F85 /* Supporting Files */,
-			);
-			path = AirfieldManagerStoryboards;
-			sourceTree = "<group>";
-		};
-		3032B8991805A10100064F85 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3032B89A1805A10100064F85 /* Airfield-Manager-Info.plist */,
-				3032B89B1805A10100064F85 /* InfoPlist.strings */,
-				3032B89E1805A10100064F85 /* main.m */,
-				3032B8A01805A10100064F85 /* Airfield-Manager-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3032B8FB1805AB4600064F85 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				CE592C9C19CA76600097E2A6 /* ViewController.h */,
-				CE592C9D19CA76600097E2A6 /* ViewController.m */,
-				CE592C9F19CA76FE0097E2A6 /* PageContentViewController.h */,
-				CE592CA019CA76FE0097E2A6 /* PageContentViewController.m */,
-				3032B8A71805A10100064F85 /* RootViewController.h */,
-				3032B8A81805A10100064F85 /* RootViewController.m */,
-				3032B8CC1805A1BC00064F85 /* HomeViewController.h */,
-				3032B8CD1805A1BC00064F85 /* HomeViewController.m */,
-				3032B8CF1805A1D200064F85 /* MenuViewController.h */,
-				3032B8D01805A1D200064F85 /* MenuViewController.m */,
-				3032B8E51805A26500064F85 /* NavigationController.h */,
-				3032B8E61805A26500064F85 /* NavigationController.m */,
-				3032B8E81805A4BF00064F85 /* SecondViewController.h */,
-				3032B8E91805A4BF00064F85 /* SecondViewController.m */,
-				CEF03304199B2AA8003CEACD /* CalcViewController.h */,
-				CEF03305199B2AA8003CEACD /* CalcViewController.m */,
-				CE730B3F1A34239F004CD936 /* CalcViewControllerBAppch.h */,
-				CE730B401A34239F004CD936 /* CalcViewControllerBAppch.m */,
-				CEB8760F1A5266920011AE0B /* CalcViewControllerATrans.h */,
-				CEB876101A5266920011AE0B /* CalcViewControllerATrans.m */,
-				CEB876121A5266BC0011AE0B /* CalcViewControllerAAppch.h */,
-				CEB876131A5266BD0011AE0B /* CalcViewControllerAAppch.m */,
-				CE61B00419AD6ECF0020151A /* BowmonkViewController.h */,
-				CE61B00519AD6ECF0020151A /* BowmonkViewController.m */,
-				CE7E09FB19D52BCC00581049 /* ETLTableViewController.h */,
-				CE61B04E19AD83510020151A /* LinksViewController.h */,
-				CE61B04F19AD83510020151A /* LinksViewController.m */,
-				CE61B05119AD84150020151A /* DiscViewController.h */,
-				CE61B05219AD84150020151A /* DiscViewController.m */,
-				CEDF2C7819D39702002DB9D6 /* AfiTableViewController.h */,
-				CEDF2C7919D39702002DB9D6 /* AfiTableViewController.m */,
-				CE7E09F819D5290E00581049 /* UFCTableViewController.h */,
-				CE7E09F919D5290E00581049 /* UFCTableViewController.m */,
-				CE7E09FC19D52BCC00581049 /* ETLTableViewController.m */,
-				CE7E09FE19D52BEA00581049 /* FAATableViewController.h */,
-				CE7E09FF19D52BEA00581049 /* FAATableViewController.m */,
-				CE7E0A0119D52BFA00581049 /* MAJCOMTableViewController.h */,
-				CE7E0A0219D52BFA00581049 /* MAJCOMTableViewController.m */,
-				CE5660DF19BBDB2900F00310 /* AircraftInfo.h */,
-				CE5660E019BBDB2900F00310 /* AircraftInfo.m */,
-				DEB738001C6E69B70087A84F /* LocationInfo.h */,
-				DEB738011C6E69B70087A84F /* LocationInfo.m */,
-				CE2EEE8419C146AC0026F03B /* AircraftDetails.h */,
-				CE2EEE8519C146AC0026F03B /* AircraftDetails.m */,
-				CE5660E219BC0F4400F00310 /* AircraftDatabase.h */,
-				CE5660E319BC0F4400F00310 /* AircraftDatabase.m */,
-				CEDCBE1C19BD159A0054F6FD /* AircraftTableViewController.h */,
-				CEDCBE1D19BD159A0054F6FD /* AircraftTableViewController.m */,
-				DEB738031C6E80080087A84F /* LocationTableViewController.h */,
-				DEB738041C6E80080087A84F /* LocationTableViewController.m */,
-				DEB7380B1C7670800087A84F /* LocationDetailViewController.h */,
-				DEB7380C1C7670800087A84F /* LocationDetailViewController.m */,
-				CE2EEE8719C14C320026F03B /* AircraftDetailViewController.h */,
-				CE2EEE8819C14C320026F03B /* AircraftDetailViewController.m */,
-				CE730B3C1A32C901004CD936 /* TabViewController.h */,
-				CE730B3D1A32C901004CD936 /* TabViewController.m */,
-				CE08682B1A56145A00C5F585 /* PanAnimationController.h */,
-				CE08682C1A56145A00C5F585 /* PanAnimationController.m */,
-				CE08682E1A56153600C5F585 /* ReversibleAnimationController.h */,
-				CE08682F1A56153600C5F585 /* ReversibleAnimationController.m */,
-				CECD0C411A4507B9007B311F /* FormsViewController.h */,
-				CECD0C421A4507B9007B311F /* FormsViewController.m */,
-				DEB737FA1C6ADE9F0087A84F /* MapTabViewController.h */,
-				DEB737FB1C6ADE9F0087A84F /* MapTabViewController.m */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 		9C3014205D0604599AC94F6E /* Pods */ = {
@@ -707,6 +616,112 @@
 			path = Safari;
 			sourceTree = "<group>";
 		};
+		DE81EAF1213B4064008A8FE5 /* Airfield-Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DE81EAF2213B4064008A8FE5 /* Storyboards */,
+				DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */,
+				DE81EAF6213B4064008A8FE5 /* AppDelegate.h */,
+				DE81EAFB213B4064008A8FE5 /* AppDelegate.m */,
+				DE81EAF7213B4064008A8FE5 /* LICENSE */,
+				DE81EAFA213B4064008A8FE5 /* Images.xcassets */,
+				DE81EAFC213B4064008A8FE5 /* SupportingFiles */,
+				DE81EB00213B4064008A8FE5 /* Controllers */,
+			);
+			path = "Airfield-Manager";
+			sourceTree = "<group>";
+		};
+		DE81EAF2213B4064008A8FE5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DE81EAF8213B4064008A8FE5 /* Main.storyboard */,
+				DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DE81EAFC213B4064008A8FE5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DE81EAFD213B4064008A8FE5 /* Airfield-Manager-Info.plist */,
+				DE81EAFE213B4064008A8FE5 /* main.m */,
+				DE81EAFF213B4064008A8FE5 /* Airfield-Manager-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DE81EB00213B4064008A8FE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE81EB01213B4064008A8FE5 /* AircraftDatabase.h */,
+				DE81EB02213B4064008A8FE5 /* LocationDetailViewController.h */,
+				DE81EB03213B4064008A8FE5 /* ReversibleAnimationController.h */,
+				DE81EB04213B4064008A8FE5 /* AircraftDetails.h */,
+				DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */,
+				DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */,
+				DE81EB07213B4064008A8FE5 /* AfiTableViewController.h */,
+				DE81EB08213B4064008A8FE5 /* MapTabViewController.m */,
+				DE81EB09213B4064008A8FE5 /* CalcViewControllerATrans.m */,
+				DE81EB0A213B4064008A8FE5 /* RootViewController.m */,
+				DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */,
+				DE81EB0C213B4064008A8FE5 /* HomeViewController.m */,
+				DE81EB0D213B4064008A8FE5 /* DiscViewController.h */,
+				DE81EB0E213B4064008A8FE5 /* LocationInfo.m */,
+				DE81EB0F213B4064008A8FE5 /* FormsViewController.h */,
+				DE81EB10213B4064008A8FE5 /* TabViewController.m */,
+				DE81EB11213B4064008A8FE5 /* NavigationController.h */,
+				DE81EB12213B4064008A8FE5 /* UFCTableViewController.m */,
+				DE81EB13213B4064008A8FE5 /* PageContentViewController.m */,
+				DE81EB14213B4064008A8FE5 /* MenuViewController.h */,
+				DE81EB15213B4064008A8FE5 /* FAATableViewController.h */,
+				DE81EB16213B4064008A8FE5 /* SecondViewController.h */,
+				DE81EB17213B4064008A8FE5 /* CalcViewControllerAAppch.h */,
+				DE81EB18213B4064008A8FE5 /* AircraftDetailViewController.m */,
+				DE81EB19213B4064008A8FE5 /* MAJCOMTableViewController.m */,
+				DE81EB1A213B4064008A8FE5 /* LinksViewController.m */,
+				DE81EB1B213B4064008A8FE5 /* ViewController.m */,
+				DE81EB1C213B4064008A8FE5 /* CalcViewControllerBAppch.m */,
+				DE81EB1D213B4064008A8FE5 /* LocationTableViewController.m */,
+				DE81EB1E213B4064008A8FE5 /* PanAnimationController.h */,
+				DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */,
+				DE81EB20213B4064008A8FE5 /* CalcViewController.h */,
+				DE81EB21213B4064008A8FE5 /* CalcViewControllerATrans.h */,
+				DE81EB22213B4064008A8FE5 /* AfiTableViewController.m */,
+				DE81EB23213B4064008A8FE5 /* MapTabViewController.h */,
+				DE81EB24213B4064008A8FE5 /* ETLTableViewController.h */,
+				DE81EB25213B4064008A8FE5 /* BowmonkViewController.h */,
+				DE81EB26213B4064008A8FE5 /* AircraftDetails.m */,
+				DE81EB27213B4064008A8FE5 /* ReversibleAnimationController.m */,
+				DE81EB28213B4064008A8FE5 /* AircraftDatabase.m */,
+				DE81EB29213B4064008A8FE5 /* LocationDetailViewController.m */,
+				DE81EB2A213B4064008A8FE5 /* PageContentViewController.h */,
+				DE81EB2B213B4064008A8FE5 /* UFCTableViewController.h */,
+				DE81EB2C213B4064008A8FE5 /* NavigationController.m */,
+				DE81EB2D213B4064008A8FE5 /* TabViewController.h */,
+				DE81EB2E213B4064008A8FE5 /* LocationInfo.h */,
+				DE81EB2F213B4064008A8FE5 /* FormsViewController.m */,
+				DE81EB30213B4064008A8FE5 /* DiscViewController.m */,
+				DE81EB31213B4064008A8FE5 /* HomeViewController.h */,
+				DE81EB32213B4064008A8FE5 /* AircraftInfo.h */,
+				DE81EB33213B4064008A8FE5 /* RootViewController.h */,
+				DE81EB34213B4064008A8FE5 /* CalcViewControllerAAppch.m */,
+				DE81EB35213B4064008A8FE5 /* AircraftDetailViewController.h */,
+				DE81EB36213B4064008A8FE5 /* SecondViewController.m */,
+				DE81EB37213B4064008A8FE5 /* MenuViewController.m */,
+				DE81EB38213B4064008A8FE5 /* FAATableViewController.m */,
+				DE81EB39213B4064008A8FE5 /* CalcViewController.m */,
+				DE81EB3A213B4064008A8FE5 /* AircraftTableViewController.h */,
+				DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */,
+				DE81EB3C213B4064008A8FE5 /* LocationTableViewController.h */,
+				DE81EB3D213B4064008A8FE5 /* CalcViewControllerBAppch.h */,
+				DE81EB3E213B4064008A8FE5 /* ViewController.h */,
+				DE81EB3F213B4064008A8FE5 /* LinksViewController.h */,
+				DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */,
+				DE81EB41213B4064008A8FE5 /* MAJCOMTableViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -779,15 +794,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE20F9AE19D6680F00C7DB48 /* ufc_3_535_01.pdf in Resources */,
+				DE81EB46213B4064008A8FE5 /* Images.xcassets in Resources */,
 				CEDCBE3119BD5E3E0054F6FD /* ic_action_map@2x.png in Resources */,
 				CEB3FDB21A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
 				CE61878F19C7DE5F00215283 /* Slide8.jpg in Resources */,
 				CEB3FDB41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				DE81EB48213B4064008A8FE5 /* Airfield-Manager-Info.plist in Resources */,
 				CE6348DC19D74F7B00E405C1 /* etl_04_2.pdf in Resources */,
 				CE6348DF19D74F7B00E405C1 /* etl_97_17.pdf in Resources */,
+				DE81EB45213B4064008A8FE5 /* Main.storyboard in Resources */,
 				CEDCBE2119BD59C60054F6FD /* database.sqlite3 in Resources */,
 				CED142DA19E644AE00364658 /* afi13_204v3_afsocsup.pdf in Resources */,
-				DEE307CA1CFE6BD400731B38 /* LaunchScreen.storyboard in Resources */,
+				DE81EB42213B4064008A8FE5 /* LaunchScreen.storyboard in Resources */,
 				CED142D619E644AE00364658 /* afi13_204v2_usafesup_i.pdf in Resources */,
 				CED142DB19E644AE00364658 /* afi13_204v3_amcsup_amcgm1.pdf in Resources */,
 				CEB3FDAD1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
@@ -802,6 +820,7 @@
 				CE61878C19C7DE5F00215283 /* Slide5.jpg in Resources */,
 				CE61878919C7DE5F00215283 /* Slide2.jpg in Resources */,
 				CE070D8319D519B500ECE647 /* afi11_218.pdf in Resources */,
+				DE81EB44213B4064008A8FE5 /* LICENSE in Resources */,
 				CEB3FDAE1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				CED142D919E644AE00364658 /* afi13_204v3_afmcsup_i.pdf in Resources */,
 				CEDCBE3919BD5E3E0054F6FD /* ic_calculator@2x.png in Resources */,
@@ -816,7 +835,9 @@
 				CE070D8619D519B500ECE647 /* afi13_217.pdf in Resources */,
 				CE730B431A3427A9004CD936 /* seven_one@2x.png in Resources */,
 				DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */,
+				DE81EB6A213B4064008A8FE5 /* Airfield-Manager.ipa in Resources */,
 				CED142D419E644AE00364658 /* afi13_204v2_accsup_i.pdf in Resources */,
+				DE81EB43213B4064008A8FE5 /* InfoPlist.strings in Resources */,
 				CE6348DB19D74F7B00E405C1 /* etl_02_19.pdf in Resources */,
 				CED142DC19E644AE00364658 /* afi13_204v3_amcsup_i.pdf in Resources */,
 				CE61878A19C7DE5F00215283 /* Slide3.jpg in Resources */,
@@ -831,7 +852,6 @@
 				CE6348DE19D74F7B00E405C1 /* etl_07_3.pdf in Resources */,
 				CED142D519E644AE00364658 /* afi13_204v2_afmcsup_i.pdf in Resources */,
 				CED142D819E644AE00364658 /* afi13_204v3_aetcsup_i.pdf in Resources */,
-				CEF032F9199B2177003CEACD /* Images.xcassets in Resources */,
 				CE20F9AD19D6680F00C7DB48 /* ufc_3_270_06.pdf in Resources */,
 				CEDCBE3619BD5E3E0054F6FD /* ic_action_send@2x.png in Resources */,
 				CE20F9AA19D6680F00C7DB48 /* ufc_3_260_02.pdf in Resources */,
@@ -842,7 +862,6 @@
 				CED142D319E644AE00364658 /* afi13_204v1_usafesup_i.pdf in Resources */,
 				CED142CF19E644AE00364658 /* afi13_204v1_accsup.pdf in Resources */,
 				CE61879119C7DE5F00215283 /* Slide10.jpg in Resources */,
-				3032B89D1805A10100064F85 /* InfoPlist.strings in Resources */,
 				CED142D019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf in Resources */,
 				CEDCBE3319BD5E3E0054F6FD /* ic_action_paste@2x.png in Resources */,
 				CE3279A31A79EE5D004E66CD /* Snippets.txt in Resources */,
@@ -854,7 +873,6 @@
 				DE97EDC91D08B106002396F9 /* airfield-manager-icon.png in Resources */,
 				CE070D8219D519B500ECE647 /* afi11_208_ip.pdf in Resources */,
 				CED142D119E644AE00364658 /* afi13_204v1_afspcsup.pdf in Resources */,
-				3032B8A61805A10100064F85 /* Main.storyboard in Resources */,
 				CEDCBE2E19BD5E3E0054F6FD /* ic_action_airplane_mode_on@2x.png in Resources */,
 				CE61878819C7DE5F00215283 /* Slide1.jpg in Resources */,
 				CE61878D19C7DE5F00215283 /* Slide6.jpg in Resources */,
@@ -947,67 +965,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDCBE1E19BD159A0054F6FD /* AircraftTableViewController.m in Sources */,
-				CEF03306199B2AA8003CEACD /* CalcViewController.m in Sources */,
-				CE2EEE8919C14C320026F03B /* AircraftDetailViewController.m in Sources */,
-				3032B8CE1805A1BC00064F85 /* HomeViewController.m in Sources */,
-				DEB738021C6E69B70087A84F /* LocationInfo.m in Sources */,
-				CE2EEE8619C146AC0026F03B /* AircraftDetails.m in Sources */,
-				DEB738051C6E80080087A84F /* LocationTableViewController.m in Sources */,
-				CE5660E119BBDB2900F00310 /* AircraftInfo.m in Sources */,
-				CE61B05319AD84150020151A /* DiscViewController.m in Sources */,
-				CE730B411A34239F004CD936 /* CalcViewControllerBAppch.m in Sources */,
-				CE7E0A0019D52BEA00581049 /* FAATableViewController.m in Sources */,
-				3032B89F1805A10100064F85 /* main.m in Sources */,
-				3032B8A91805A10100064F85 /* RootViewController.m in Sources */,
-				CE61B00619AD6ECF0020151A /* BowmonkViewController.m in Sources */,
-				3032B8EA1805A4BF00064F85 /* SecondViewController.m in Sources */,
+				DE81EB60213B4064008A8FE5 /* LocationDetailViewController.m in Sources */,
+				DE81EB4F213B4064008A8FE5 /* AircraftInfo.m in Sources */,
+				DE81EB5E213B4064008A8FE5 /* ReversibleAnimationController.m in Sources */,
+				DE81EB68213B4064008A8FE5 /* CalcViewController.m in Sources */,
 				CEB3FDAC1A47EF4E001A0C14 /* SVWebViewController.m in Sources */,
+				DE81EB69213B4064008A8FE5 /* PanAnimationController.m in Sources */,
+				DE81EB4B213B4064008A8FE5 /* ETLTableViewController.m in Sources */,
+				DE81EB4E213B4064008A8FE5 /* RootViewController.m in Sources */,
+				DE81EB56213B4064008A8FE5 /* MAJCOMTableViewController.m in Sources */,
+				DE81EB55213B4064008A8FE5 /* AircraftDetailViewController.m in Sources */,
+				DE81EB52213B4064008A8FE5 /* TabViewController.m in Sources */,
 				CEB3FDAA1A47EF4E001A0C14 /* SVModalWebViewController.m in Sources */,
-				CE61B05019AD83510020151A /* LinksViewController.m in Sources */,
+				DE81EB65213B4064008A8FE5 /* SecondViewController.m in Sources */,
+				DE81EB5A213B4064008A8FE5 /* LocationTableViewController.m in Sources */,
+				DE81EB50213B4064008A8FE5 /* HomeViewController.m in Sources */,
+				DE81EB47213B4064008A8FE5 /* AppDelegate.m in Sources */,
+				DE81EB5B213B4064008A8FE5 /* AircraftTableViewController.m in Sources */,
+				DE81EB5F213B4064008A8FE5 /* AircraftDatabase.m in Sources */,
 				CEB3FDAF1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m in Sources */,
-				CE7E09FA19D5290E00581049 /* UFCTableViewController.m in Sources */,
-				CE592CA119CA76FE0097E2A6 /* PageContentViewController.m in Sources */,
-				CE5660E419BC0F4400F00310 /* AircraftDatabase.m in Sources */,
-				CEB876141A5266BD0011AE0B /* CalcViewControllerAAppch.m in Sources */,
-				CE7E0A0319D52BFA00581049 /* MAJCOMTableViewController.m in Sources */,
-				CE7E09FD19D52BCC00581049 /* ETLTableViewController.m in Sources */,
-				CE0868301A56153600C5F585 /* ReversibleAnimationController.m in Sources */,
-				DEB7380D1C7670800087A84F /* LocationDetailViewController.m in Sources */,
-				CECD0C431A4507B9007B311F /* FormsViewController.m in Sources */,
-				CE592C9E19CA76600097E2A6 /* ViewController.m in Sources */,
-				CEDF2C7A19D39702002DB9D6 /* AfiTableViewController.m in Sources */,
-				CE08682D1A56145A00C5F585 /* PanAnimationController.m in Sources */,
+				DE81EB57213B4064008A8FE5 /* LinksViewController.m in Sources */,
 				CEB3FDB51A47EF4E001A0C14 /* SVWebViewControllerActivity.m in Sources */,
-				CE730B3E1A32C901004CD936 /* TabViewController.m in Sources */,
-				3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */,
-				3032B8A31805A10100064F85 /* AppDelegate.m in Sources */,
-				CEB876111A5266920011AE0B /* CalcViewControllerATrans.m in Sources */,
-				DEB737FC1C6ADE9F0087A84F /* MapTabViewController.m in Sources */,
-				3032B8E71805A26500064F85 /* NavigationController.m in Sources */,
+				DE81EB66213B4064008A8FE5 /* MenuViewController.m in Sources */,
+				DE81EB4D213B4064008A8FE5 /* CalcViewControllerATrans.m in Sources */,
+				DE81EB54213B4064008A8FE5 /* PageContentViewController.m in Sources */,
+				DE81EB49213B4064008A8FE5 /* main.m in Sources */,
+				DE81EB58213B4064008A8FE5 /* ViewController.m in Sources */,
+				DE81EB62213B4064008A8FE5 /* FormsViewController.m in Sources */,
+				DE81EB4A213B4064008A8FE5 /* BowmonkViewController.m in Sources */,
+				DE81EB5C213B4064008A8FE5 /* AfiTableViewController.m in Sources */,
+				DE81EB59213B4064008A8FE5 /* CalcViewControllerBAppch.m in Sources */,
+				DE81EB63213B4064008A8FE5 /* DiscViewController.m in Sources */,
+				DE81EB51213B4064008A8FE5 /* LocationInfo.m in Sources */,
+				DE81EB61213B4064008A8FE5 /* NavigationController.m in Sources */,
+				DE81EB5D213B4064008A8FE5 /* AircraftDetails.m in Sources */,
+				DE81EB67213B4064008A8FE5 /* FAATableViewController.m in Sources */,
+				DE81EB53213B4064008A8FE5 /* UFCTableViewController.m in Sources */,
 				CEB3FDB31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m in Sources */,
+				DE81EB64213B4064008A8FE5 /* CalcViewControllerAAppch.m in Sources */,
+				DE81EB4C213B4064008A8FE5 /* MapTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3032B89B1805A10100064F85 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3032B89C1805A10100064F85 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3032B8A41805A10100064F85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3032B8A51805A10100064F85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEB3FD8A1A47EF4E001A0C14 /* SVWebViewController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1023,6 +1025,22 @@
 				CEB3FDA81A47EF4E001A0C14 /* zh-Hant */,
 			);
 			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
+		DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE81EAF5213B4064008A8FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE81EAF8213B4064008A8FE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE81EAF9213B4064008A8FE5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1117,8 +1135,8 @@
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AirfieldManagerStoryboards/Airfield-Manager-Prefix.pch";
-				INFOPLIST_FILE = "AirfieldManagerStoryboards/Airfield-Manager-Info.plist";
+				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
+				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
@@ -1142,8 +1160,8 @@
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AirfieldManagerStoryboards/Airfield-Manager-Prefix.pch";
-				INFOPLIST_FILE = "AirfieldManagerStoryboards/Airfield-Manager-Info.plist";
+				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
+				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
