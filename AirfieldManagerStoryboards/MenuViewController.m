@@ -1,9 +1,9 @@
 //
 //  MenuViewController.m
-//  REFrostedViewControllerStoryboards
+//  Airfield-Manager
 //
-//  Created by Roman Efimov on 10/9/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by Terrance Miller on 9/17/14.
+//  Copyright (c) 2014 Terrance Miller. All rights reserved.
 //
 
 #import "MenuViewController.h"
@@ -43,16 +43,6 @@
     self.tableView.tableHeaderView = ({
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 70.0f)];
         view.backgroundColor = [UIColor colorWithRed:244/255.0 green:212/255.0 blue:66/255.0 alpha:1.0];
-        //UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 4, 10, 10)];
-        //imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-        //imageView.image = [UIImage imageNamed:@"avatar.jpg"];
-        //imageView.layer.masksToBounds = YES;
-        //imageView.layer.cornerRadius = 10.0;
-        //imageView.layer.borderColor = [UIColor whiteColor].CGColor;
-        //imageView.layer.borderWidth = 3.0f;
-        //imageView.layer.rasterizationScale = [UIScreen mainScreen].scale;
-        //imageView.layer.shouldRasterize = YES;
-        //imageView.clipsToBounds = YES;
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 30, 40, 20)];
         label.text = @"Airfield Manager";
@@ -204,27 +194,6 @@
     [composer setMessageBody:body isHTML:NO];
     //[composer setMessageBody:body isHTML:YES]; //if you want to send an HTML message
     [composer setToRecipients:recipients];
-    
-    //get the filepath from resources
-    //NSString *filePath = [[NSBundle mainBundle] pathForResource:@"" ofType:@"png"];
-    
-    //read the file using NSData
-    //NSData * fileData = [NSData dataWithContentsOfFile:filePath];
-    // Set the MIME type
-    /*you can use :
-     - @"application/msword" for MS Word
-     - @"application/vnd.ms-powerpoint" for PowerPoint
-     - @"text/html" for HTML file
-     - @"application/pdf" for PDF document
-     - @"image/jpeg" for JPEG/JPG images
-     */
-    //NSString *mimeType = @"image/png";
-    
-    //add attachement
-    //[composer addAttachmentData:fileData mimeType:mimeType fileName:filePath];
-    
-    //present it on the screen
-    //[self.frostedViewController.contentViewController presentViewController:composer animated:YES completion:NULL];
     
     [[[[[UIApplication sharedApplication] delegate] window] rootViewController] presentViewController:composer                                                                                                    animated:YES completion:NULL];
 

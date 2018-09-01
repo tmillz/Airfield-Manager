@@ -1,14 +1,14 @@
 //
-//  DEMONavigationController.m
-//  REFrostedViewControllerStoryboards
+//  NavigationController.m
+//  Airfield-Manager
 //
-//  Created by Roman Efimov on 10/9/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by Terrance Miller on 9/17/14.
+//  Copyright (c) 2014 Terrance Miller. All rights reserved.
 //
 
 #import "NavigationController.h"
 #import "PageContentViewController.h"
-#import "viewController.h"
+#import "ViewController.h"
 
 @interface NavigationController (overrides)
 

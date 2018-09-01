@@ -1,8 +1,8 @@
 //
-//  CalcViewController3.m
+//  CalcViewControllerATrans.m
 //  Airfield-Manager
 //
-//  Created by Terry on 12/29/14.
+//  Created by Terrance Miller on 9/17/14.
 //  Copyright (c) 2014 Terrance Miller. All rights reserved.
 //
 

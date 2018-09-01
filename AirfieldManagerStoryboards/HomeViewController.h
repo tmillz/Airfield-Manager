@@ -1,9 +1,9 @@
 //
-//  DEMOHomeViewController.h
-//  REFrostedViewControllerStoryboards
+//  HomeViewController.h
+//  Airfield-Manager
 //
-//  Created by Roman Efimov on 10/9/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by Terrance Miller on 9/17/14.
+//  Copyright (c) 2014 Terrance Miller. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

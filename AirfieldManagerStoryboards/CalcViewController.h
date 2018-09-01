@@ -1,9 +1,9 @@
 //
-//  DEMOCalcViewController.h
+//  CalcViewController.h
 //  Airfield-Manager
 //
-//  Created by Terry on 8/13/14.
-//  Copyright (c) 2014 Roman Efimov. All rights reserved.
+//  Created by Terrance Miller on 9/17/14.
+//  Copyright (c) 2014 Terrance Miller. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -22,4 +22,3 @@
 
 
 @end
-

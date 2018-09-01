@@ -2,7 +2,7 @@
 //  PanAnimationController.h
 //  Airfield-Manager
 //
-//  Created by Terry on 1/1/15.
+//  Created by Terrance Miller on 1/1/15.
 //  Copyright (c) 2015 Terrance Miller. All rights reserved.
 //
 
