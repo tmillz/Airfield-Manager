@@ -1,16 +1,20 @@
 PODS:
   - GoogleMaps (1.13.2)
+  - REFrostedViewController (2.4.8)
 
 DEPENDENCIES:
   - GoogleMaps
+  - REFrostedViewController (~> 2.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleMaps
+    - REFrostedViewController
 
 SPEC CHECKSUMS:
   GoogleMaps: b20a103ff307f58392e603cf142e59d7e30374c1
+  REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
 
-PODFILE CHECKSUM: 7581d8326304d365d98208b831f8c10c98c56850
+PODFILE CHECKSUM: f2e8c9d4eac6c775cb09440b7ba3564fa8175042
 
 COCOAPODS: 1.5.3

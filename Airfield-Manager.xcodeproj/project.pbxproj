@@ -17,14 +17,8 @@
 		3032B8A91805A10100064F85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A81805A10100064F85 /* RootViewController.m */; };
 		3032B8CE1805A1BC00064F85 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8CD1805A1BC00064F85 /* HomeViewController.m */; };
 		3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D01805A1D200064F85 /* MenuViewController.m */; };
-		3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */; };
-		3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D91805A21600064F85 /* REFrostedViewController.m */; };
-		3032B8E21805A21600064F85 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DB1805A21600064F85 /* UIImage+REFrostedViewController.m */; };
-		3032B8E31805A21600064F85 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DD1805A21600064F85 /* UIView+REFrostedViewController.m */; };
-		3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DF1805A21600064F85 /* UIViewController+REFrostedViewController.m */; };
 		3032B8E71805A26500064F85 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E61805A26500064F85 /* NavigationController.m */; };
 		3032B8EA1805A4BF00064F85 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E91805A4BF00064F85 /* SecondViewController.m */; };
-		3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */; };
 		BFE952844DB5ED916F9A5F3D /* libPods-Airfield-Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */; };
 		CE070D8019D519B500ECE647 /* afi10_1001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7419D519B500ECE647 /* afi10_1001.pdf */; };
 		CE070D8119D519B500ECE647 /* afi10_1801.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7519D519B500ECE647 /* afi10_1801.pdf */; };
@@ -153,7 +147,6 @@
 		CEDF2C7A19D39702002DB9D6 /* AfiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF2C7919D39702002DB9D6 /* AfiTableViewController.m */; };
 		CEF032F9199B2177003CEACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF032F8199B2177003CEACD /* Images.xcassets */; };
 		CEF03306199B2AA8003CEACD /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF03305199B2AA8003CEACD /* CalcViewController.m */; };
-		DE331B101C66BF21009FF2FE /* REFrostedViewControllerStoryboardsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE331B0F1C66BF21009FF2FE /* REFrostedViewControllerStoryboardsTests-Info.plist */; };
 		DE41876F1CC1851F00B0789D /* afi13_204v3_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */; };
 		DE65D42C1D9D859F00C895A7 /* afi13_213_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */; };
 		DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC41D074AC1002396F9 /* 332.pdf */; };
@@ -185,22 +178,10 @@
 		3032B8CD1805A1BC00064F85 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3032B8CF1805A1D200064F85 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		3032B8D01805A1D200064F85 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		3032B8D61805A21600064F85 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
-		3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
-		3032B8D81805A21600064F85 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
-		3032B8D91805A21600064F85 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
-		3032B8DA1805A21600064F85 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
-		3032B8DB1805A21600064F85 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
-		3032B8DC1805A21600064F85 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
-		3032B8DD1805A21600064F85 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
-		3032B8DE1805A21600064F85 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
-		3032B8DF1805A21600064F85 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
 		3032B8E51805A26500064F85 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		3032B8E61805A26500064F85 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		3032B8E81805A4BF00064F85 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3032B8E91805A4BF00064F85 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3032B8FE1805BC8E00064F85 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airfield-Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F0DB851671C34C60B91D4E /* Pods-Airfield-Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airfield-Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager.release.xcconfig"; sourceTree = "<group>"; };
 		7F11B62D0F1B5AD14654E30A /* Pods-Airfield-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airfield-Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -293,8 +274,8 @@
 		CE730B401A34239F004CD936 /* CalcViewControllerBAppch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewControllerBAppch.m; sourceTree = "<group>"; };
 		CE730B421A3427A9004CD936 /* seven_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven_one@2x.png"; sourceTree = "<group>"; };
 		CE730B441A34296C004CD936 /* fifty_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fifty_one@2x.png"; sourceTree = "<group>"; };
-		CE7E09F819D5290E00581049 /* UFCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UFCTableViewController.h; path = ../UFCTableViewController.h; sourceTree = "<group>"; };
-		CE7E09F919D5290E00581049 /* UFCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UFCTableViewController.m; path = ../UFCTableViewController.m; sourceTree = "<group>"; };
+		CE7E09F819D5290E00581049 /* UFCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFCTableViewController.h; sourceTree = "<group>"; };
+		CE7E09F919D5290E00581049 /* UFCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFCTableViewController.m; sourceTree = "<group>"; };
 		CE7E09FB19D52BCC00581049 /* ETLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLTableViewController.h; sourceTree = "<group>"; };
 		CE7E09FC19D52BCC00581049 /* ETLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETLTableViewController.m; sourceTree = "<group>"; };
 		CE7E09FE19D52BEA00581049 /* FAATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAATableViewController.h; sourceTree = "<group>"; };
@@ -371,7 +352,6 @@
 		CEF032F8199B2177003CEACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Airfield-Manager/Images.xcassets"; sourceTree = "<group>"; };
 		CEF03304199B2AA8003CEACD /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
 		CEF03305199B2AA8003CEACD /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
-		DE331B0F1C66BF21009FF2FE /* REFrostedViewControllerStoryboardsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "REFrostedViewControllerStoryboardsTests-Info.plist"; sourceTree = "<group>"; };
 		DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_1.pdf; sourceTree = "<group>"; };
 		DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_213_1.pdf; sourceTree = "<group>"; };
 		DE97EDC41D074AC1002396F9 /* 332.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 332.pdf; sourceTree = "<group>"; };
@@ -425,9 +405,7 @@
 			children = (
 				CEB3FD891A47EF4E001A0C14 /* SVWebViewController */,
 				CEF032F8199B2177003CEACD /* Images.xcassets */,
-				3032B8D51805A21600064F85 /* REFrostedViewController */,
-				3032B8981805A10100064F85 /* REFrostedViewControllerStoryboards */,
-				DE331B0E1C66BE1B009FF2FE /* REFrostedViewControllerStoryboardsTests */,
+				3032B8981805A10100064F85 /* AirfieldManagerStoryboards */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
 				CE61B05A19AFEE990020151A /* Resources */,
@@ -472,7 +450,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3032B8981805A10100064F85 /* REFrostedViewControllerStoryboards */ = {
+		3032B8981805A10100064F85 /* AirfieldManagerStoryboards */ = {
 			isa = PBXGroup;
 			children = (
 				3032B8FB1805AB4600064F85 /* Controllers */,
@@ -482,7 +460,7 @@
 				DEE307C91CFE6BD400731B38 /* LaunchScreen.storyboard */,
 				3032B8991805A10100064F85 /* Supporting Files */,
 			);
-			path = REFrostedViewControllerStoryboards;
+			path = AirfieldManagerStoryboards;
 			sourceTree = "<group>";
 		};
 		3032B8991805A10100064F85 /* Supporting Files */ = {
@@ -494,26 +472,6 @@
 				3032B8A01805A10100064F85 /* Airfield-Manager-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3032B8D51805A21600064F85 /* REFrostedViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3032B8FE1805BC8E00064F85 /* RECommonFunctions.h */,
-				3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */,
-				3032B8D61805A21600064F85 /* REFrostedContainerViewController.h */,
-				3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */,
-				3032B8D81805A21600064F85 /* REFrostedViewController.h */,
-				3032B8D91805A21600064F85 /* REFrostedViewController.m */,
-				3032B8DA1805A21600064F85 /* UIImage+REFrostedViewController.h */,
-				3032B8DB1805A21600064F85 /* UIImage+REFrostedViewController.m */,
-				3032B8DC1805A21600064F85 /* UIView+REFrostedViewController.h */,
-				3032B8DD1805A21600064F85 /* UIView+REFrostedViewController.m */,
-				3032B8DE1805A21600064F85 /* UIViewController+REFrostedViewController.h */,
-				3032B8DF1805A21600064F85 /* UIViewController+REFrostedViewController.m */,
-			);
-			name = REFrostedViewController;
-			path = "../Downloads/REFrostedViewController-master/REFrostedViewController";
 			sourceTree = "<group>";
 		};
 		3032B8FB1805AB4600064F85 /* Controllers */ = {
@@ -697,7 +655,7 @@
 				CE61B06019B118950020151A /* afi13_204v2.pdf */,
 				DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CEB3FD891A47EF4E001A0C14 /* SVWebViewController */ = {
@@ -747,15 +705,6 @@
 				CEB3FDA41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png */,
 			);
 			path = Safari;
-			sourceTree = "<group>";
-		};
-		DE331B0E1C66BE1B009FF2FE /* REFrostedViewControllerStoryboardsTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE331B0F1C66BF21009FF2FE /* REFrostedViewControllerStoryboardsTests-Info.plist */,
-			);
-			name = REFrostedViewControllerStoryboardsTests;
-			path = "Airfield-Manager.xcodeproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -859,7 +808,6 @@
 				CE070D8819D519B500ECE647 /* afi32_1043.pdf in Resources */,
 				CEB3FDB01A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
 				CEDCBE3719BD5E3E0054F6FD /* ic_action_warning@2x.png in Resources */,
-				DE331B101C66BF21009FF2FE /* REFrostedViewControllerStoryboardsTests-Info.plist in Resources */,
 				CED142D219E644AE00364658 /* afi13_204v1_pacafsup_i.pdf in Resources */,
 				CED142D719E644AE00364658 /* afi13_204v3_accsup_i.pdf in Resources */,
 				CE61B06119B118950020151A /* afi13_204v2.pdf in Resources */,
@@ -946,15 +894,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
@@ -983,15 +927,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Airfield-Manager-checkManifestLockResult.txt",
 			);
@@ -1011,14 +951,11 @@
 				CEF03306199B2AA8003CEACD /* CalcViewController.m in Sources */,
 				CE2EEE8919C14C320026F03B /* AircraftDetailViewController.m in Sources */,
 				3032B8CE1805A1BC00064F85 /* HomeViewController.m in Sources */,
-				3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */,
 				DEB738021C6E69B70087A84F /* LocationInfo.m in Sources */,
 				CE2EEE8619C146AC0026F03B /* AircraftDetails.m in Sources */,
 				DEB738051C6E80080087A84F /* LocationTableViewController.m in Sources */,
-				3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */,
 				CE5660E119BBDB2900F00310 /* AircraftInfo.m in Sources */,
 				CE61B05319AD84150020151A /* DiscViewController.m in Sources */,
-				3032B8E31805A21600064F85 /* UIView+REFrostedViewController.m in Sources */,
 				CE730B411A34239F004CD936 /* CalcViewControllerBAppch.m in Sources */,
 				CE7E0A0019D52BEA00581049 /* FAATableViewController.m in Sources */,
 				3032B89F1805A10100064F85 /* main.m in Sources */,
@@ -1028,7 +965,6 @@
 				CEB3FDAC1A47EF4E001A0C14 /* SVWebViewController.m in Sources */,
 				CEB3FDAA1A47EF4E001A0C14 /* SVModalWebViewController.m in Sources */,
 				CE61B05019AD83510020151A /* LinksViewController.m in Sources */,
-				3032B8E21805A21600064F85 /* UIImage+REFrostedViewController.m in Sources */,
 				CEB3FDAF1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m in Sources */,
 				CE7E09FA19D5290E00581049 /* UFCTableViewController.m in Sources */,
 				CE592CA119CA76FE0097E2A6 /* PageContentViewController.m in Sources */,
@@ -1047,8 +983,6 @@
 				3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */,
 				3032B8A31805A10100064F85 /* AppDelegate.m in Sources */,
 				CEB876111A5266920011AE0B /* CalcViewControllerATrans.m in Sources */,
-				3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */,
-				3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */,
 				DEB737FC1C6ADE9F0087A84F /* MapTabViewController.m in Sources */,
 				3032B8E71805A26500064F85 /* NavigationController.m in Sources */,
 				CEB3FDB31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m in Sources */,
@@ -1183,8 +1117,8 @@
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "REFrostedViewControllerStoryboards/Airfield-Manager-Prefix.pch";
-				INFOPLIST_FILE = "REFrostedViewControllerStoryboards/Airfield-Manager-Info.plist";
+				GCC_PREFIX_HEADER = "AirfieldManagerStoryboards/Airfield-Manager-Prefix.pch";
+				INFOPLIST_FILE = "AirfieldManagerStoryboards/Airfield-Manager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
@@ -1208,8 +1142,8 @@
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "REFrostedViewControllerStoryboards/Airfield-Manager-Prefix.pch";
-				INFOPLIST_FILE = "REFrostedViewControllerStoryboards/Airfield-Manager-Info.plist";
+				GCC_PREFIX_HEADER = "AirfieldManagerStoryboards/Airfield-Manager-Prefix.pch";
+				INFOPLIST_FILE = "AirfieldManagerStoryboards/Airfield-Manager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
