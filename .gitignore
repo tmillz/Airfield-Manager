@@ -64,3 +64,9 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Ignore FastPDFKit embedded framework
+FastPdfKit.embeddedframework/
+
+# Ignore SVWebViewController
+SVWebViewController/
