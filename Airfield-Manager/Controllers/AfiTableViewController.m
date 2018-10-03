@@ -8,7 +8,7 @@
 
 #import "AfiTableViewController.h"
 
-NSString *document;
+NSString *documentA;
 
 @interface AfiTableViewController ()
 
@@ -106,73 +106,73 @@ NSString *document;
             //[self.documentInteractionController presentPreviewAnimated:YES];
 
         //}
-        document = @"afi13_204v3_1";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi13_204v3_1";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
-        document = @"afi13_204v2";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi13_204v2";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
-        document = @"afi13_204v1";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi13_204v1";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
-        document = @"afi13_213_1";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi13_213_1";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
-        document = @"afi11_208_ip";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi11_208_ip";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 5) {
         
-        document = @"afjman11_213";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afjman11_213";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 6) {
         
-        document = @"afi11_218";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi11_218";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 7) {
         
-        document = @"afi13_217";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi13_217";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 8) {
         
-        document = @"afi10_1001";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi10_1001";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 9) {
         
-        document = @"afi10_1801";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi10_1801";
+        [self actionOpenPlainDocument:documentA];
 
     } else if (indexPath.section == 0 && indexPath.row == 10) {
         
-        document = @"afman32_1084";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afman32_1084";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 11) {
         
-        document = @"afpam91_212";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afpam91_212";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 12) {
         
-        document = @"afi32_1041";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi32_1041";
+        [self actionOpenPlainDocument:documentA];
         
     } else if (indexPath.section == 0 && indexPath.row == 13) {
         
-        document = @"afi32_1043";
-        [self actionOpenPlainDocument:document];
+        documentA = @"afi32_1043";
+        [self actionOpenPlainDocument:documentA];
         
     } else {
     }
@@ -181,7 +181,7 @@ NSString *document;
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
     /** Set document name */
-    NSString *documentName = [NSString stringWithFormat:@"%@",document];
+    NSString *documentName = [NSString stringWithFormat:@"%@",documentA];
 
     /** Get temporary directory to save thumbnails */
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

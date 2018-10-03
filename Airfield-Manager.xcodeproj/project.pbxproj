@@ -71,19 +71,6 @@
 		CE6348E719D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE6348E319D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf */; };
 		CE730B431A3427A9004CD936 /* seven_one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730B421A3427A9004CD936 /* seven_one@2x.png */; };
 		CE730B451A34296C004CD936 /* fifty_one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE730B441A34296C004CD936 /* fifty_one@2x.png */; };
-		CEB3FDA91A47EF4E001A0C14 /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD8A1A47EF4E001A0C14 /* SVWebViewController.strings */; };
-		CEB3FDAA1A47EF4E001A0C14 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FD941A47EF4E001A0C14 /* SVModalWebViewController.m */; };
-		CEB3FDAB1A47EF4E001A0C14 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD951A47EF4E001A0C14 /* SVWebViewController.bundle */; };
-		CEB3FDAC1A47EF4E001A0C14 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FD971A47EF4E001A0C14 /* SVWebViewController.m */; };
-		CEB3FDAD1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD9A1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png */; };
-		CEB3FDAE1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD9B1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
-		CEB3FDAF1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FD9D1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m */; };
-		CEB3FDB01A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FD9E1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png */; };
-		CEB3FDB11A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FDA01A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad.png */; };
-		CEB3FDB21A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FDA11A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
-		CEB3FDB31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FDA31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m */; };
-		CEB3FDB41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB3FDA41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png */; };
-		CEB3FDB51A47EF4E001A0C14 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3FDA61A47EF4E001A0C14 /* SVWebViewControllerActivity.m */; };
 		CED0B20119B4301E00282472 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0B20019B4301E00282472 /* libsqlite3.dylib */; };
 		CED142CF19E644AE00364658 /* afi13_204v1_accsup.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142BF19E644AE00364658 /* afi13_204v1_accsup.pdf */; };
 		CED142D019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED142C019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf */; };
@@ -122,7 +109,6 @@
 		DE81EB45213B4064008A8FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF8213B4064008A8FE5 /* Main.storyboard */; };
 		DE81EB46213B4064008A8FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAFA213B4064008A8FE5 /* Images.xcassets */; };
 		DE81EB47213B4064008A8FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EAFB213B4064008A8FE5 /* AppDelegate.m */; };
-		DE81EB48213B4064008A8FE5 /* Airfield-Manager-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAFD213B4064008A8FE5 /* Airfield-Manager-Info.plist */; };
 		DE81EB49213B4064008A8FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EAFE213B4064008A8FE5 /* main.m */; };
 		DE81EB4A213B4064008A8FE5 /* BowmonkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */; };
 		DE81EB4B213B4064008A8FE5 /* ETLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */; };
@@ -234,33 +220,6 @@
 		CE6348E319D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AC150_5300_13A_chg1_interactive.pdf; sourceTree = "<group>"; };
 		CE730B421A3427A9004CD936 /* seven_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seven_one@2x.png"; sourceTree = "<group>"; };
 		CE730B441A34296C004CD936 /* fifty_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fifty_one@2x.png"; sourceTree = "<group>"; };
-		CEB3FD8B1A47EF4E001A0C14 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD8C1A47EF4E001A0C14 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD8D1A47EF4E001A0C14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD8E1A47EF4E001A0C14 /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
-		CEB3FD8F1A47EF4E001A0C14 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD901A47EF4E001A0C14 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD911A47EF4E001A0C14 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD921A47EF4E001A0C14 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
-		CEB3FD931A47EF4E001A0C14 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
-		CEB3FD941A47EF4E001A0C14 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
-		CEB3FD951A47EF4E001A0C14 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
-		CEB3FD961A47EF4E001A0C14 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
-		CEB3FD971A47EF4E001A0C14 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
-		CEB3FD9A1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
-		CEB3FD9B1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
-		CEB3FD9C1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
-		CEB3FD9D1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
-		CEB3FD9E1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
-		CEB3FDA01A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
-		CEB3FDA11A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
-		CEB3FDA21A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
-		CEB3FDA31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
-		CEB3FDA41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
-		CEB3FDA51A47EF4E001A0C14 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
-		CEB3FDA61A47EF4E001A0C14 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
-		CEB3FDA71A47EF4E001A0C14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
-		CEB3FDA81A47EF4E001A0C14 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
 		CED0B20019B4301E00282472 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CED142BF19E644AE00364658 /* afi13_204v1_accsup.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v1_accsup.pdf; sourceTree = "<group>"; };
 		CED142C019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v1_afmcsup_i.pdf; sourceTree = "<group>"; };
@@ -408,8 +367,8 @@
 		3032B8861805A10100064F85 = {
 			isa = PBXGroup;
 			children = (
+				DE91D7542163F6C60084D040 /* BuildConfig */,
 				DE81EAF1213B4064008A8FE5 /* Airfield-Manager */,
-				CEB3FD891A47EF4E001A0C14 /* SVWebViewController */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
 				CE61B05A19AFEE990020151A /* Resources */,
@@ -567,55 +526,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CEB3FD891A47EF4E001A0C14 /* SVWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CEB3FD8A1A47EF4E001A0C14 /* SVWebViewController.strings */,
-				CEB3FD931A47EF4E001A0C14 /* SVModalWebViewController.h */,
-				CEB3FD941A47EF4E001A0C14 /* SVModalWebViewController.m */,
-				CEB3FD951A47EF4E001A0C14 /* SVWebViewController.bundle */,
-				CEB3FD961A47EF4E001A0C14 /* SVWebViewController.h */,
-				CEB3FD971A47EF4E001A0C14 /* SVWebViewController.m */,
-				CEB3FD981A47EF4E001A0C14 /* UIActivities */,
-			);
-			path = SVWebViewController;
-			sourceTree = "<group>";
-		};
-		CEB3FD981A47EF4E001A0C14 /* UIActivities */ = {
-			isa = PBXGroup;
-			children = (
-				CEB3FD991A47EF4E001A0C14 /* Chrome */,
-				CEB3FD9F1A47EF4E001A0C14 /* Safari */,
-				CEB3FDA51A47EF4E001A0C14 /* SVWebViewControllerActivity.h */,
-				CEB3FDA61A47EF4E001A0C14 /* SVWebViewControllerActivity.m */,
-			);
-			path = UIActivities;
-			sourceTree = "<group>";
-		};
-		CEB3FD991A47EF4E001A0C14 /* Chrome */ = {
-			isa = PBXGroup;
-			children = (
-				CEB3FD9A1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png */,
-				CEB3FD9B1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
-				CEB3FD9C1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.h */,
-				CEB3FD9D1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m */,
-				CEB3FD9E1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png */,
-			);
-			path = Chrome;
-			sourceTree = "<group>";
-		};
-		CEB3FD9F1A47EF4E001A0C14 /* Safari */ = {
-			isa = PBXGroup;
-			children = (
-				CEB3FDA01A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad.png */,
-				CEB3FDA11A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
-				CEB3FDA21A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.h */,
-				CEB3FDA31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m */,
-				CEB3FDA41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png */,
-			);
-			path = Safari;
-			sourceTree = "<group>";
-		};
 		DE81EAF1213B4064008A8FE5 /* Airfield-Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,73 +563,81 @@
 		DE81EB00213B4064008A8FE5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE81EB01213B4064008A8FE5 /* AircraftDatabase.h */,
-				DE81EB02213B4064008A8FE5 /* LocationDetailViewController.h */,
-				DE81EB03213B4064008A8FE5 /* ReversibleAnimationController.h */,
-				DE81EB04213B4064008A8FE5 /* AircraftDetails.h */,
-				DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */,
-				DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */,
 				DE81EB07213B4064008A8FE5 /* AfiTableViewController.h */,
-				DE81EB08213B4064008A8FE5 /* MapTabViewController.m */,
-				DE81EB09213B4064008A8FE5 /* CalcViewControllerATrans.m */,
-				DE81EB0A213B4064008A8FE5 /* RootViewController.m */,
-				DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */,
-				DE81EB0C213B4064008A8FE5 /* HomeViewController.m */,
-				DE81EB0D213B4064008A8FE5 /* DiscViewController.h */,
-				DE81EB0E213B4064008A8FE5 /* LocationInfo.m */,
-				DE81EB0F213B4064008A8FE5 /* FormsViewController.h */,
-				DE81EB10213B4064008A8FE5 /* TabViewController.m */,
-				DE81EB11213B4064008A8FE5 /* NavigationController.h */,
-				DE81EB12213B4064008A8FE5 /* UFCTableViewController.m */,
-				DE81EB13213B4064008A8FE5 /* PageContentViewController.m */,
-				DE81EB14213B4064008A8FE5 /* MenuViewController.h */,
-				DE81EB15213B4064008A8FE5 /* FAATableViewController.h */,
-				DE81EB16213B4064008A8FE5 /* SecondViewController.h */,
-				DE81EB17213B4064008A8FE5 /* CalcViewControllerAAppch.h */,
-				DE81EB18213B4064008A8FE5 /* AircraftDetailViewController.m */,
-				DE81EB19213B4064008A8FE5 /* MAJCOMTableViewController.m */,
-				DE81EB1A213B4064008A8FE5 /* LinksViewController.m */,
-				DE81EB1B213B4064008A8FE5 /* ViewController.m */,
-				DE81EB1C213B4064008A8FE5 /* CalcViewControllerBAppch.m */,
-				DE81EB1D213B4064008A8FE5 /* LocationTableViewController.m */,
-				DE81EB1E213B4064008A8FE5 /* PanAnimationController.h */,
-				DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */,
-				DE81EB20213B4064008A8FE5 /* CalcViewController.h */,
-				DE81EB21213B4064008A8FE5 /* CalcViewControllerATrans.h */,
 				DE81EB22213B4064008A8FE5 /* AfiTableViewController.m */,
-				DE81EB23213B4064008A8FE5 /* MapTabViewController.h */,
-				DE81EB24213B4064008A8FE5 /* ETLTableViewController.h */,
-				DE81EB25213B4064008A8FE5 /* BowmonkViewController.h */,
-				DE81EB26213B4064008A8FE5 /* AircraftDetails.m */,
-				DE81EB27213B4064008A8FE5 /* ReversibleAnimationController.m */,
+				DE81EB01213B4064008A8FE5 /* AircraftDatabase.h */,
 				DE81EB28213B4064008A8FE5 /* AircraftDatabase.m */,
-				DE81EB29213B4064008A8FE5 /* LocationDetailViewController.m */,
-				DE81EB2A213B4064008A8FE5 /* PageContentViewController.h */,
-				DE81EB2B213B4064008A8FE5 /* UFCTableViewController.h */,
-				DE81EB2C213B4064008A8FE5 /* NavigationController.m */,
-				DE81EB2D213B4064008A8FE5 /* TabViewController.h */,
-				DE81EB2E213B4064008A8FE5 /* LocationInfo.h */,
-				DE81EB2F213B4064008A8FE5 /* FormsViewController.m */,
-				DE81EB30213B4064008A8FE5 /* DiscViewController.m */,
-				DE81EB31213B4064008A8FE5 /* HomeViewController.h */,
-				DE81EB32213B4064008A8FE5 /* AircraftInfo.h */,
-				DE81EB33213B4064008A8FE5 /* RootViewController.h */,
-				DE81EB34213B4064008A8FE5 /* CalcViewControllerAAppch.m */,
+				DE81EB04213B4064008A8FE5 /* AircraftDetails.h */,
+				DE81EB26213B4064008A8FE5 /* AircraftDetails.m */,
 				DE81EB35213B4064008A8FE5 /* AircraftDetailViewController.h */,
-				DE81EB36213B4064008A8FE5 /* SecondViewController.m */,
-				DE81EB37213B4064008A8FE5 /* MenuViewController.m */,
-				DE81EB38213B4064008A8FE5 /* FAATableViewController.m */,
-				DE81EB39213B4064008A8FE5 /* CalcViewController.m */,
+				DE81EB18213B4064008A8FE5 /* AircraftDetailViewController.m */,
+				DE81EB32213B4064008A8FE5 /* AircraftInfo.h */,
+				DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */,
 				DE81EB3A213B4064008A8FE5 /* AircraftTableViewController.h */,
-				DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */,
-				DE81EB3C213B4064008A8FE5 /* LocationTableViewController.h */,
-				DE81EB3D213B4064008A8FE5 /* CalcViewControllerBAppch.h */,
-				DE81EB3E213B4064008A8FE5 /* ViewController.h */,
-				DE81EB3F213B4064008A8FE5 /* LinksViewController.h */,
+				DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */,
 				DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */,
+				DE81EB25213B4064008A8FE5 /* BowmonkViewController.h */,
+				DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */,
+				DE81EB20213B4064008A8FE5 /* CalcViewController.h */,
+				DE81EB39213B4064008A8FE5 /* CalcViewController.m */,
+				DE81EB17213B4064008A8FE5 /* CalcViewControllerAAppch.h */,
+				DE81EB34213B4064008A8FE5 /* CalcViewControllerAAppch.m */,
+				DE81EB21213B4064008A8FE5 /* CalcViewControllerATrans.h */,
+				DE81EB09213B4064008A8FE5 /* CalcViewControllerATrans.m */,
+				DE81EB3D213B4064008A8FE5 /* CalcViewControllerBAppch.h */,
+				DE81EB1C213B4064008A8FE5 /* CalcViewControllerBAppch.m */,
+				DE81EB0D213B4064008A8FE5 /* DiscViewController.h */,
+				DE81EB30213B4064008A8FE5 /* DiscViewController.m */,
+				DE81EB24213B4064008A8FE5 /* ETLTableViewController.h */,
+				DE81EB06213B4064008A8FE5 /* ETLTableViewController.m */,
+				DE81EB15213B4064008A8FE5 /* FAATableViewController.h */,
+				DE81EB38213B4064008A8FE5 /* FAATableViewController.m */,
+				DE81EB0F213B4064008A8FE5 /* FormsViewController.h */,
+				DE81EB2F213B4064008A8FE5 /* FormsViewController.m */,
+				DE81EB31213B4064008A8FE5 /* HomeViewController.h */,
+				DE81EB0C213B4064008A8FE5 /* HomeViewController.m */,
+				DE81EB3F213B4064008A8FE5 /* LinksViewController.h */,
+				DE81EB1A213B4064008A8FE5 /* LinksViewController.m */,
+				DE81EB02213B4064008A8FE5 /* LocationDetailViewController.h */,
+				DE81EB29213B4064008A8FE5 /* LocationDetailViewController.m */,
+				DE81EB2E213B4064008A8FE5 /* LocationInfo.h */,
+				DE81EB0E213B4064008A8FE5 /* LocationInfo.m */,
+				DE81EB3C213B4064008A8FE5 /* LocationTableViewController.h */,
+				DE81EB1D213B4064008A8FE5 /* LocationTableViewController.m */,
 				DE81EB41213B4064008A8FE5 /* MAJCOMTableViewController.h */,
+				DE81EB19213B4064008A8FE5 /* MAJCOMTableViewController.m */,
+				DE81EB23213B4064008A8FE5 /* MapTabViewController.h */,
+				DE81EB08213B4064008A8FE5 /* MapTabViewController.m */,
+				DE81EB14213B4064008A8FE5 /* MenuViewController.h */,
+				DE81EB37213B4064008A8FE5 /* MenuViewController.m */,
+				DE81EB11213B4064008A8FE5 /* NavigationController.h */,
+				DE81EB2C213B4064008A8FE5 /* NavigationController.m */,
+				DE81EB2A213B4064008A8FE5 /* PageContentViewController.h */,
+				DE81EB13213B4064008A8FE5 /* PageContentViewController.m */,
+				DE81EB1E213B4064008A8FE5 /* PanAnimationController.h */,
+				DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */,
+				DE81EB03213B4064008A8FE5 /* ReversibleAnimationController.h */,
+				DE81EB27213B4064008A8FE5 /* ReversibleAnimationController.m */,
+				DE81EB33213B4064008A8FE5 /* RootViewController.h */,
+				DE81EB0A213B4064008A8FE5 /* RootViewController.m */,
+				DE81EB16213B4064008A8FE5 /* SecondViewController.h */,
+				DE81EB36213B4064008A8FE5 /* SecondViewController.m */,
+				DE81EB2D213B4064008A8FE5 /* TabViewController.h */,
+				DE81EB10213B4064008A8FE5 /* TabViewController.m */,
+				DE81EB2B213B4064008A8FE5 /* UFCTableViewController.h */,
+				DE81EB12213B4064008A8FE5 /* UFCTableViewController.m */,
+				DE81EB3E213B4064008A8FE5 /* ViewController.h */,
+				DE81EB1B213B4064008A8FE5 /* ViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE91D7542163F6C60084D040 /* BuildConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BuildConfig;
+			path = "Airfield-Manager/BuildConfig";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -753,7 +671,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DEMO;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Terrance Miller";
 				TargetAttributes = {
 					3032B88E1805A10100064F85 = {
@@ -796,10 +714,7 @@
 				CE20F9AE19D6680F00C7DB48 /* ufc_3_535_01.pdf in Resources */,
 				DE81EB46213B4064008A8FE5 /* Images.xcassets in Resources */,
 				CEDCBE3119BD5E3E0054F6FD /* ic_action_map@2x.png in Resources */,
-				CEB3FDB21A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
 				CE61878F19C7DE5F00215283 /* Slide8.jpg in Resources */,
-				CEB3FDB41A47EF4E001A0C14 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
-				DE81EB48213B4064008A8FE5 /* Airfield-Manager-Info.plist in Resources */,
 				CE6348DC19D74F7B00E405C1 /* etl_04_2.pdf in Resources */,
 				CE6348DF19D74F7B00E405C1 /* etl_97_17.pdf in Resources */,
 				DE81EB45213B4064008A8FE5 /* Main.storyboard in Resources */,
@@ -808,8 +723,6 @@
 				DE81EB42213B4064008A8FE5 /* LaunchScreen.storyboard in Resources */,
 				CED142D619E644AE00364658 /* afi13_204v2_usafesup_i.pdf in Resources */,
 				CED142DB19E644AE00364658 /* afi13_204v3_amcsup_amcgm1.pdf in Resources */,
-				CEB3FDAD1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
-				CEB3FDB11A47EF4E001A0C14 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
 				CE61879019C7DE5F00215283 /* Slide9.jpg in Resources */,
 				CE070D8119D519B500ECE647 /* afi10_1801.pdf in Resources */,
 				DE65D42C1D9D859F00C895A7 /* afi13_213_1.pdf in Resources */,
@@ -821,11 +734,9 @@
 				CE61878919C7DE5F00215283 /* Slide2.jpg in Resources */,
 				CE070D8319D519B500ECE647 /* afi11_218.pdf in Resources */,
 				DE81EB44213B4064008A8FE5 /* LICENSE in Resources */,
-				CEB3FDAE1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
 				CED142D919E644AE00364658 /* afi13_204v3_afmcsup_i.pdf in Resources */,
 				CEDCBE3919BD5E3E0054F6FD /* ic_calculator@2x.png in Resources */,
 				CE070D8819D519B500ECE647 /* afi32_1043.pdf in Resources */,
-				CEB3FDB01A47EF4E001A0C14 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
 				CEDCBE3719BD5E3E0054F6FD /* ic_action_warning@2x.png in Resources */,
 				CED142D219E644AE00364658 /* afi13_204v1_pacafsup_i.pdf in Resources */,
 				CED142D719E644AE00364658 /* afi13_204v3_accsup_i.pdf in Resources */,
@@ -877,12 +788,10 @@
 				CE61878819C7DE5F00215283 /* Slide1.jpg in Resources */,
 				CE61878D19C7DE5F00215283 /* Slide6.jpg in Resources */,
 				CEDCBE3819BD5E3E0054F6FD /* ic_action_web_site@2x.png in Resources */,
-				CEB3FDA91A47EF4E001A0C14 /* SVWebViewController.strings in Resources */,
 				CED142DE19E644AE00364658 /* afi13_204v3_usafesup_i.pdf in Resources */,
 				CEDCBE3019BD5E3E0054F6FD /* ic_action_important@2x.png in Resources */,
 				CE61B06319B11BB10020151A /* afi13_204v1.pdf in Resources */,
 				CE3279A21A79EE5D004E66CD /* FPKReaderBundle.bundle in Resources */,
-				CEB3FDAB1A47EF4E001A0C14 /* SVWebViewController.bundle in Resources */,
 				CE070D8419D519B500ECE647 /* afi13_213.pdf in Resources */,
 				DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */,
 				CE6348E719D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf in Resources */,
@@ -915,10 +824,52 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Airfield-Manager/Pods-Airfield-Manager-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/da.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/de.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/en.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/es-ES.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/es.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/fr.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/ja.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/pt.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/zh-Hans.lproj",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/zh-Hant.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-ES.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -969,23 +920,19 @@
 				DE81EB4F213B4064008A8FE5 /* AircraftInfo.m in Sources */,
 				DE81EB5E213B4064008A8FE5 /* ReversibleAnimationController.m in Sources */,
 				DE81EB68213B4064008A8FE5 /* CalcViewController.m in Sources */,
-				CEB3FDAC1A47EF4E001A0C14 /* SVWebViewController.m in Sources */,
 				DE81EB69213B4064008A8FE5 /* PanAnimationController.m in Sources */,
 				DE81EB4B213B4064008A8FE5 /* ETLTableViewController.m in Sources */,
 				DE81EB4E213B4064008A8FE5 /* RootViewController.m in Sources */,
 				DE81EB56213B4064008A8FE5 /* MAJCOMTableViewController.m in Sources */,
 				DE81EB55213B4064008A8FE5 /* AircraftDetailViewController.m in Sources */,
 				DE81EB52213B4064008A8FE5 /* TabViewController.m in Sources */,
-				CEB3FDAA1A47EF4E001A0C14 /* SVModalWebViewController.m in Sources */,
 				DE81EB65213B4064008A8FE5 /* SecondViewController.m in Sources */,
 				DE81EB5A213B4064008A8FE5 /* LocationTableViewController.m in Sources */,
 				DE81EB50213B4064008A8FE5 /* HomeViewController.m in Sources */,
 				DE81EB47213B4064008A8FE5 /* AppDelegate.m in Sources */,
 				DE81EB5B213B4064008A8FE5 /* AircraftTableViewController.m in Sources */,
 				DE81EB5F213B4064008A8FE5 /* AircraftDatabase.m in Sources */,
-				CEB3FDAF1A47EF4E001A0C14 /* SVWebViewControllerActivityChrome.m in Sources */,
 				DE81EB57213B4064008A8FE5 /* LinksViewController.m in Sources */,
-				CEB3FDB51A47EF4E001A0C14 /* SVWebViewControllerActivity.m in Sources */,
 				DE81EB66213B4064008A8FE5 /* MenuViewController.m in Sources */,
 				DE81EB4D213B4064008A8FE5 /* CalcViewControllerATrans.m in Sources */,
 				DE81EB54213B4064008A8FE5 /* PageContentViewController.m in Sources */,
@@ -1001,7 +948,6 @@
 				DE81EB5D213B4064008A8FE5 /* AircraftDetails.m in Sources */,
 				DE81EB67213B4064008A8FE5 /* FAATableViewController.m in Sources */,
 				DE81EB53213B4064008A8FE5 /* UFCTableViewController.m in Sources */,
-				CEB3FDB31A47EF4E001A0C14 /* SVWebViewControllerActivitySafari.m in Sources */,
 				DE81EB64213B4064008A8FE5 /* CalcViewControllerAAppch.m in Sources */,
 				DE81EB4C213B4064008A8FE5 /* MapTabViewController.m in Sources */,
 			);
@@ -1010,23 +956,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEB3FD8A1A47EF4E001A0C14 /* SVWebViewController.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEB3FD8B1A47EF4E001A0C14 /* da */,
-				CEB3FD8C1A47EF4E001A0C14 /* de */,
-				CEB3FD8D1A47EF4E001A0C14 /* en */,
-				CEB3FD8E1A47EF4E001A0C14 /* es-ES */,
-				CEB3FD8F1A47EF4E001A0C14 /* es */,
-				CEB3FD901A47EF4E001A0C14 /* fr */,
-				CEB3FD911A47EF4E001A0C14 /* ja */,
-				CEB3FD921A47EF4E001A0C14 /* pt */,
-				CEB3FDA71A47EF4E001A0C14 /* zh-Hans */,
-				CEB3FDA81A47EF4E001A0C14 /* zh-Hant */,
-			);
-			name = SVWebViewController.strings;
-			sourceTree = "<group>";
-		};
 		DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1050,24 +979,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1091,22 +1034,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

@@ -1,20 +1,32 @@
 PODS:
   - GoogleMaps (1.13.2)
   - REFrostedViewController (2.4.8)
+  - SVWebViewController (1.0)
 
 DEPENDENCIES:
   - GoogleMaps
   - REFrostedViewController (~> 2.4)
+  - SVWebViewController (from `https://github.com/TransitApp/SVWebViewController.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleMaps
     - REFrostedViewController
 
+EXTERNAL SOURCES:
+  SVWebViewController:
+    :git: https://github.com/TransitApp/SVWebViewController.git
+
+CHECKOUT OPTIONS:
+  SVWebViewController:
+    :commit: fe4ddeca1a8c7e5cc5ea716667426463f31b28f3
+    :git: https://github.com/TransitApp/SVWebViewController.git
+
 SPEC CHECKSUMS:
   GoogleMaps: b20a103ff307f58392e603cf142e59d7e30374c1
   REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
+  SVWebViewController: aa2e18a41ff5f45be7aeec8e92ca5bcc50b5ebb1
 
-PODFILE CHECKSUM: f2e8c9d4eac6c775cb09440b7ba3564fa8175042
+PODFILE CHECKSUM: 98c81228d03cd64b120c67419e0aa12c025fa2d5
 
 COCOAPODS: 1.5.3

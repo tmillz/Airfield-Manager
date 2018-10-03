@@ -8,7 +8,7 @@
 
 #import "FormsViewController.h"
 
-NSString *document;
+NSString *documentF;
 
 @interface FormsViewController ()
 
@@ -74,7 +74,7 @@ NSString *document;
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
     /** Set document name */
-    NSString *documentName = [NSString stringWithFormat:@"%@",document];
+    NSString *documentName = [NSString stringWithFormat:@"%@",documentF];
     
     /** Get temporary directory to save thumbnails */
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

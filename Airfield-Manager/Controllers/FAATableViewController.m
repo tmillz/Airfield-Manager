@@ -8,7 +8,7 @@
 
 #import "FAATableViewController.h"
 
-NSString *document;
+NSString *documentFAA;
 
 @interface FAATableViewController ()
 
@@ -96,28 +96,28 @@ NSString *document;
             [self.documentInteractionController presentPreviewAnimated:YES];
         }*/
         
-        document = @"AC150_5200_18C";
-        [self actionOpenPlainDocument:document];
+        documentFAA = @"AC150_5200_18C";
+        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
-        document = @"AC150_5300_13A_chg1_interactive";
-        [self actionOpenPlainDocument:document];
+        documentFAA = @"AC150_5300_13A_chg1_interactive";
+        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
-        document = @"AC150_5340_1l";
-        [self actionOpenPlainDocument:document];
+        documentFAA = @"AC150_5340_1l";
+        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
-        document = @"AC150_5200_18C";
-        [self actionOpenPlainDocument:document];
+        documentFAA = @"AC150_5200_18C";
+        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
-        document = @"AC150_5345_44j";
-        [self actionOpenPlainDocument:document];
+        documentFAA = @"AC150_5345_44j";
+        [self actionOpenPlainDocument:documentFAA];
         
     } else {
         
@@ -126,7 +126,7 @@ NSString *document;
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
     /** Set document name */
-    NSString *documentName = [NSString stringWithFormat:@"%@",document];
+    NSString *documentName = [NSString stringWithFormat:@"%@",documentFAA];
     
     /** Get temporary directory to save thumbnails */
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

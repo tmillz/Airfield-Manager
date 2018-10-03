@@ -1,4 +1,6 @@
 # airfield_manager_ios
+[![Build Status](https://travis-ci.org/tmillz/airfield_manager_ios.svg?branch=master)](https://travis-ci.org/tmillz/airfield_manager_ios)
+
 Source code for Airfield Manager on iOS
 
 <a href='https://itunes.apple.com/us/app/airfield-manager/id944128338?mt=8'><img src='https://drive.google.com/uc?export=view&id=1tzaagBK1PGdeSoAeZDSEjxcBxlT3nMJg' height='45' /></a>

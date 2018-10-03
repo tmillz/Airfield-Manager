@@ -8,7 +8,7 @@
 
 #import "UFCTableViewController.h"
 
-NSString *document;
+NSString *documentU;
 
 @interface UFCTableViewController ()
 
@@ -97,33 +97,33 @@ NSString *document;
             [self.documentInteractionController presentPreviewAnimated:YES];
         }*/
         
-        document = @"ufc_3_260_01";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_260_01";
+        [self actionOpenPlainDocument:documentU];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
-        document = @"ufc_3_260_02";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_260_02";
+        [self actionOpenPlainDocument:documentU];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
-        document = @"ufc_3_260_03";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_260_03";
+        [self actionOpenPlainDocument:documentU];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
-        document = @"ufc_3_270_05";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_270_05";
+        [self actionOpenPlainDocument:documentU];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
-        document = @"ufc_3_270_06";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_270_06";
+        [self actionOpenPlainDocument:documentU];
         
     } else if (indexPath.section == 0 && indexPath.row == 5) {
         
-        document = @"ufc_3_535_01";
-        [self actionOpenPlainDocument:document];
+        documentU = @"ufc_3_535_01";
+        [self actionOpenPlainDocument:documentU];
         
     } else {
         
@@ -132,7 +132,7 @@ NSString *document;
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
     /** Set document name */
-    NSString *documentName = [NSString stringWithFormat:@"%@",document];
+    NSString *documentName = [NSString stringWithFormat:@"%@",documentU];
     
     /** Get temporary directory to save thumbnails */
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

@@ -8,7 +8,7 @@
 
 #import "MAJCOMTableViewController.h"
 
-NSString *document;
+NSString *documentM;
 
 @interface MAJCOMTableViewController ()
 
@@ -106,83 +106,83 @@ NSString *document;
             [self.documentInteractionController presentPreviewAnimated:YES];
         }*/
         
-        document = @"afi13_204v1_accsup";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v1_accsup";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
-        document = @"afi13_204v1_afmcsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v1_afmcsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
-        document = @"afi13_204v1_afspcsup";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v1_afspcsup";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
-        document = @"afi13_204v1_pacafsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v1_pacafsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
-        document = @"afi13_204v1_usafesup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v1_usafesup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 5) {
         
-        document = @"afi13_204v2_accsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v2_accsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 6) {
         
-        document = @"afi13_204v2_afmcsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v2_afmcsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 7) {
         
-        document = @"afi13_204v2_usafesup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v2_usafesup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 8) {
         
-        document = @"afi13_204v3_accsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_accsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 9) {
         
-        document = @"afi13_204v3_aetcsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_aetcsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 10) {
         
-        document = @"afi13_204v3_afmcsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_afmcsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 11) {
         
-        document = @"afi13_204v3_afsocsup";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_afsocsup";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 12) {
         
-        document = @"afi13_204v3_amcsup_amcgm1";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_amcsup_amcgm1";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 13) {
         
-        document = @"afi13_204v3_amcsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_amcsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 14) {
         
-        document = @"afi13_204v3_pacafsup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_pacafsup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 15) {
         
-        document = @"afi13_204v3_usafesup_i";
-        [self actionOpenPlainDocument:document];
+        documentM = @"afi13_204v3_usafesup_i";
+        [self actionOpenPlainDocument:documentM];
         
     } else {
         
@@ -191,7 +191,7 @@ NSString *document;
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
     /** Set document name */
-    NSString *documentName = [NSString stringWithFormat:@"%@",document];
+    NSString *documentName = [NSString stringWithFormat:@"%@",documentM];
     
     /** Get temporary directory to save thumbnails */
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
