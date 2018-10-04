@@ -3,3 +3,5 @@ xcode_workspace: Airfield-Manager.xcworkspace
 xcode_scheme: Airfield-Manager
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone 6
 xcode_sdk: iphonesimulator
+CODE_SIGN_IDENTITY = ""
+CODE_SIGN_REQUIRED = NO
