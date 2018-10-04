@@ -2,4 +2,4 @@ language: objective-c
 xcode_workspace: Airfield-Manager.xcworkspace
 xcode_scheme: Airfield-Manager
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone 6
-xcode_sdk: iphonesimulator ONLY_ACTIVE_ARCH=NO
+xcode_sdk: iphonesimulator
