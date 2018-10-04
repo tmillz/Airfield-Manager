@@ -38,8 +38,23 @@
         
     } else {
     
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You must enter an object height" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        //UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You must enter an object height" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        //[alert show];
+        
+        UIAlertController * alert = [UIAlertController
+                                     alertControllerWithTitle:@"You must enter an object height"
+                                     message:nil
+                                     preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* noButton = [UIAlertAction
+                                   actionWithTitle:@"OK"
+                                   style:UIAlertActionStyleDefault
+                                   handler:^(UIAlertAction * action) {
+                                   }];
+        
+        [alert addAction:noButton];
+        
+        [self presentViewController:alert animated:YES completion:nil];
     }
     
 }
@@ -60,8 +75,23 @@
         
     } else {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You must enter the distance from the centerline" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You must enter the distance from the centerline" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];*/
+        
+        UIAlertController * alert = [UIAlertController
+                                     alertControllerWithTitle:@"You must enter the distance from the centerline"
+                                     message:nil
+                                     preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* noButton = [UIAlertAction
+                                   actionWithTitle:@"OK"
+                                   style:UIAlertActionStyleDefault
+                                   handler:^(UIAlertAction * action) {
+                                   }];
+        
+        [alert addAction:noButton];
+        
+        [self presentViewController:alert animated:YES completion:nil];
     }
     
 }

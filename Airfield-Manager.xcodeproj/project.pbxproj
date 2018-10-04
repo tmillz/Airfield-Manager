@@ -367,7 +367,6 @@
 		3032B8861805A10100064F85 = {
 			isa = PBXGroup;
 			children = (
-				DE91D7542163F6C60084D040 /* BuildConfig */,
 				DE81EAF1213B4064008A8FE5 /* Airfield-Manager */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
@@ -630,14 +629,6 @@
 				DE81EB1B213B4064008A8FE5 /* ViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DE91D7542163F6C60084D040 /* BuildConfig */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = BuildConfig;
-			path = "Airfield-Manager/BuildConfig";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
