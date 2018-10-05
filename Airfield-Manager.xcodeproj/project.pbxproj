@@ -716,12 +716,11 @@
 				ORGANIZATIONNAME = "Terrance Miller";
 				TargetAttributes = {
 					3032B88E1805A10100064F85 = {
-						DevelopmentTeam = 74R328XGFG;
+						ProvisioningStyle = Manual;
 					};
 					DE91D75F216695260084D040 = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = 74R328XGFG;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 3032B88E1805A10100064F85;
 					};
 				};
@@ -1155,7 +1154,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 74R328XGFG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1168,6 +1168,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1180,7 +1181,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 74R328XGFG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1193,6 +1195,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1208,8 +1211,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74R328XGFG;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
@@ -1219,6 +1222,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Airfield-Manager";
 			};
@@ -1234,10 +1238,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 74R328XGFG;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
@@ -1247,6 +1251,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Airfield-Manager";
 			};
