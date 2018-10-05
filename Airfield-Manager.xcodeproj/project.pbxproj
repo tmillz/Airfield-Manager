@@ -1165,7 +1165,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
 				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1190,7 +1190,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
 				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
 				TARGETED_DEVICE_FAMILY = "1,2";
