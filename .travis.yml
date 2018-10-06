@@ -21,8 +21,8 @@
 
 language: objective-c
 xcode_workspace: Airfield-Manager.xcworkspace 
-xcode_scheme: Airfield-ManagerUITests
-xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone 8
+xcode_scheme: Airfield-Manager
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone 8
 #script: xcodebuild clean build build CODE_SIGNING_ALLOWED="NO" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED="NO" ONLY_ACTIVE_ARCH="NO" CODE_SIGN_ENTITLEMENTS="" test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-Manager" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.0,name=iPhone 8"
 #script: xcodebuild clean build build CODE_SIGNING_ALLOWED="NO" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED="NO" ONLY_ACTIVE_ARCH="NO" CODE_SIGN_ENTITLEMENTS="" test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-ManagerUITests" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.4,name=iPhone 8"
 #script: xcodebuild clean build test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-ManagerUITests" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.4,name=iPhone 8"
