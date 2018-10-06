@@ -1205,6 +1205,7 @@
 		};
 		DE91D767216695260084D040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F11B62D0F1B5AD14654E30A /* Pods-Airfield-Manager.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1232,6 +1233,7 @@
 		};
 		DE91D768216695260084D040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F0DB851671C34C60B91D4E /* Pods-Airfield-Manager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
