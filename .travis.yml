@@ -29,7 +29,6 @@
 #script: xcodebuild clean build test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-ManagerUITests" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.4,name=iPhone 8"
 
 
-os: osx
-osx_image: xcode9.4
 languange: objective-c
-script: xcodebuild clean build test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-Manager" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=11.4,name=iPhone 8" ONLY_ACTIVE_ARCH=NO CODESIGNING_REQUIRED=NO
+osx_image: xcode10
+script: xcodebuild clean build test -workspace Airfield-Manager.xcworkspace -scheme "Airfield-Manager" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.0,name=iPhone 8" ONLY_ACTIVE_ARCH=NO CODESIGNING_REQUIRED=NO
