@@ -141,7 +141,6 @@
 		DE81EB67213B4064008A8FE5 /* FAATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB38213B4064008A8FE5 /* FAATableViewController.m */; };
 		DE81EB68213B4064008A8FE5 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB39213B4064008A8FE5 /* CalcViewController.m */; };
 		DE81EB69213B4064008A8FE5 /* PanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */; };
-		DE81EB6A213B4064008A8FE5 /* Airfield-Manager.ipa in Resources */ = {isa = PBXBuildFile; fileRef = DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */; };
 		DE91D763216695260084D040 /* Airfield_ManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D762216695260084D040 /* Airfield_ManagerUITests.m */; };
 		DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC41D074AC1002396F9 /* 332.pdf */; };
 		DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC61D074D3A002396F9 /* dd175.pdf */; };
@@ -336,7 +335,6 @@
 		DE81EB3D213B4064008A8FE5 /* CalcViewControllerBAppch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewControllerBAppch.h; sourceTree = "<group>"; };
 		DE81EB3E213B4064008A8FE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE81EB3F213B4064008A8FE5 /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
-		DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Airfield-Manager.ipa"; sourceTree = "<group>"; };
 		DE81EB41213B4064008A8FE5 /* MAJCOMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAJCOMTableViewController.h; sourceTree = "<group>"; };
 		DE91D760216695260084D040 /* Airfield-ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airfield-ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE91D762216695260084D040 /* Airfield_ManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airfield_ManagerUITests.m; sourceTree = "<group>"; };
@@ -597,7 +595,6 @@
 				DE81EB0B213B4064008A8FE5 /* AircraftInfo.m */,
 				DE81EB3A213B4064008A8FE5 /* AircraftTableViewController.h */,
 				DE81EB1F213B4064008A8FE5 /* AircraftTableViewController.m */,
-				DE81EB40213B4064008A8FE5 /* Airfield-Manager.ipa */,
 				DE81EB25213B4064008A8FE5 /* BowmonkViewController.h */,
 				DE81EB05213B4064008A8FE5 /* BowmonkViewController.m */,
 				DE81EB20213B4064008A8FE5 /* CalcViewController.h */,
@@ -795,7 +792,6 @@
 				CE070D8619D519B500ECE647 /* afi13_217.pdf in Resources */,
 				CE730B431A3427A9004CD936 /* seven_one@2x.png in Resources */,
 				DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */,
-				DE81EB6A213B4064008A8FE5 /* Airfield-Manager.ipa in Resources */,
 				CED142D419E644AE00364658 /* afi13_204v2_accsup_i.pdf in Resources */,
 				DE81EB43213B4064008A8FE5 /* InfoPlist.strings in Resources */,
 				CE6348DB19D74F7B00E405C1 /* etl_02_19.pdf in Resources */,
