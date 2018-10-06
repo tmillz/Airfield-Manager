@@ -150,7 +150,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE91D765216695260084D040 /* PBXContainerItemProxy */ = {
+		DE28AFB62168ECD80041A5A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3032B8871805A10100064F85 /* Project object */;
 			proxyType = 1;
@@ -698,7 +698,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DE91D766216695260084D040 /* PBXTargetDependency */,
+				DE28AFB72168ECD80041A5A2 /* PBXTargetDependency */,
 			);
 			name = "Airfield-ManagerUITests";
 			productName = "Airfield-ManagerUITests";
@@ -1020,10 +1020,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DE91D766216695260084D040 /* PBXTargetDependency */ = {
+		DE28AFB72168ECD80041A5A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3032B88E1805A10100064F85 /* Airfield-Manager */;
-			targetProxy = DE91D765216695260084D040 /* PBXContainerItemProxy */;
+			targetProxy = DE28AFB62168ECD80041A5A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
