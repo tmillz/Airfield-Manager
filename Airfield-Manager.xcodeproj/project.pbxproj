@@ -100,8 +100,8 @@
 		CEDCBE3919BD5E3E0054F6FD /* ic_calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2D19BD5E3E0054F6FD /* ic_calculator@2x.png */; };
 		DE41876F1CC1851F00B0789D /* afi13_204v3_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */; };
 		DE41CE7D216B9DD700D1A0FD /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; };
-		DE41CE7E216BAA6500D1A0FD /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; };
-		DE41CE7F216BAA6500D1A0FD /* UXReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE5EFC2C2193329A006B80E1 /* Airfield_ManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5EFC2B2193329A006B80E1 /* Airfield_ManagerUITests.m */; };
+		DE5EFC34219340A5006B80E1 /* UXReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE65D42C1D9D859F00C895A7 /* afi13_213_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */; };
 		DE81EB42213B4064008A8FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */; };
 		DE81EB43213B4064008A8FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */; };
@@ -147,14 +147,24 @@
 		DE97EDC91D08B106002396F9 /* airfield-manager-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC81D08B106002396F9 /* airfield-manager-icon.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE5EFC2E2193329A006B80E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3032B8871805A10100064F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3032B88E1805A10100064F85;
+			remoteInfo = "Airfield-Manager";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		DE41CE80216BAA6600D1A0FD /* Embed Frameworks */ = {
+		DE5EFC35219340A5006B80E1 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DE41CE7F216BAA6500D1A0FD /* UXReader.framework in Embed Frameworks */,
+				DE5EFC34219340A5006B80E1 /* UXReader.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +270,9 @@
 		CEDCBE2C19BD5E3E0054F6FD /* ic_action_web_site@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_action_web_site@2x.png"; sourceTree = "<group>"; };
 		CEDCBE2D19BD5E3E0054F6FD /* ic_calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_calculator@2x.png"; sourceTree = "<group>"; };
 		DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_204v3_1.pdf; sourceTree = "<group>"; };
+		DE5EFC292193329A006B80E1 /* Airfield-ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airfield-ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5EFC2B2193329A006B80E1 /* Airfield_ManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airfield_ManagerUITests.m; sourceTree = "<group>"; };
+		DE5EFC2D2193329A006B80E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = afi13_213_1.pdf; sourceTree = "<group>"; };
 		DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE81EAF5213B4064008A8FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -360,7 +373,6 @@
 				CE61B07519B14BC70020151A /* libicucore.dylib in Frameworks */,
 				CE61B07319B14BAF0020151A /* libc++.dylib in Frameworks */,
 				CE61B07119B14B970020151A /* ImageIO.framework in Frameworks */,
-				DE41CE7E216BAA6500D1A0FD /* UXReader.framework in Frameworks */,
 				CE61B06F19B14B8D0020151A /* GLKit.framework in Frameworks */,
 				CE61B06D19B14B820020151A /* CoreText.framework in Frameworks */,
 				CE61B06B19B14B770020151A /* CoreLocation.framework in Frameworks */,
@@ -373,6 +385,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE5EFC262193329A006B80E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -381,6 +400,7 @@
 			children = (
 				DE81EAF1213B4064008A8FE5 /* Airfield-Manager */,
 				DE91D761216695260084D040 /* Airfield-ManagerUITests */,
+				DE5EFC2A2193329A006B80E1 /* Airfield-ManagerUITests */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
 				CE61B05A19AFEE990020151A /* Resources */,
@@ -392,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				3032B88F1805A10100064F85 /* Airfield-Manager.app */,
+				DE5EFC292193329A006B80E1 /* Airfield-ManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -517,6 +538,15 @@
 				DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE5EFC2A2193329A006B80E1 /* Airfield-ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE5EFC2B2193329A006B80E1 /* Airfield_ManagerUITests.m */,
+				DE5EFC2D2193329A006B80E1 /* Info.plist */,
+			);
+			path = "Airfield-ManagerUITests";
 			sourceTree = "<group>";
 		};
 		DE81EAF1213B4064008A8FE5 /* Airfield-Manager */ = {
@@ -647,7 +677,7 @@
 				3032B88D1805A10100064F85 /* Resources */,
 				BB54D9C5C6C35220CC05A718 /* 📦 Copy Pods Resources */,
 				89C34ECA787A533BA36D532E /* [CP] Copy Pods Resources */,
-				DE41CE80216BAA6600D1A0FD /* Embed Frameworks */,
+				DE5EFC35219340A5006B80E1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -657,6 +687,24 @@
 			productName = REFrostedViewControllerStoryboards;
 			productReference = 3032B88F1805A10100064F85 /* Airfield-Manager.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DE5EFC282193329A006B80E1 /* Airfield-ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE5EFC322193329A006B80E1 /* Build configuration list for PBXNativeTarget "Airfield-ManagerUITests" */;
+			buildPhases = (
+				DE5EFC252193329A006B80E1 /* Sources */,
+				DE5EFC262193329A006B80E1 /* Frameworks */,
+				DE5EFC272193329A006B80E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE5EFC2F2193329A006B80E1 /* PBXTargetDependency */,
+			);
+			name = "Airfield-ManagerUITests";
+			productName = "Airfield-ManagerUITests";
+			productReference = DE5EFC292193329A006B80E1 /* Airfield-ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -671,6 +719,12 @@
 					3032B88E1805A10100064F85 = {
 						DevelopmentTeam = 74R328XGFG;
 						ProvisioningStyle = Automatic;
+					};
+					DE5EFC282193329A006B80E1 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 74R328XGFG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3032B88E1805A10100064F85;
 					};
 				};
 			};
@@ -697,6 +751,7 @@
 			projectRoot = "";
 			targets = (
 				3032B88E1805A10100064F85 /* Airfield-Manager */,
+				DE5EFC282193329A006B80E1 /* Airfield-ManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -787,6 +842,13 @@
 				CE070D8419D519B500ECE647 /* afi13_213.pdf in Resources */,
 				DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */,
 				CE6348E719D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5EFC272193329A006B80E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,7 +1007,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE5EFC252193329A006B80E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5EFC2C2193329A006B80E1 /* Airfield_ManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE5EFC2F2193329A006B80E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3032B88E1805A10100064F85 /* Airfield-Manager */;
+			targetProxy = DE5EFC2E2193329A006B80E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */ = {
@@ -1127,6 +1205,60 @@
 			};
 			name = Release;
 		};
+		DE5EFC302193329A006B80E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74R328XGFG;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airfield-Manager";
+			};
+			name = Debug;
+		};
+		DE5EFC312193329A006B80E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 74R328XGFG;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Airfield-Manager";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1144,6 +1276,15 @@
 			buildConfigurations = (
 				3032B8C21805A10100064F85 /* Debug */,
 				3032B8C31805A10100064F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE5EFC322193329A006B80E1 /* Build configuration list for PBXNativeTarget "Airfield-ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5EFC302193329A006B80E1 /* Debug */,
+				DE5EFC312193329A006B80E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
