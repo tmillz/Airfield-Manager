@@ -10,6 +10,7 @@
 		3032B8931805A10100064F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8921805A10100064F85 /* Foundation.framework */; };
 		3032B8951805A10100064F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8941805A10100064F85 /* CoreGraphics.framework */; };
 		3032B8971805A10100064F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8961805A10100064F85 /* UIKit.framework */; };
+		B55AA1D0783EE1CC231906F7 /* libPods-Airfield-Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */; };
 		CE070D8019D519B500ECE647 /* afi10_1001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7419D519B500ECE647 /* afi10_1001.pdf */; };
 		CE070D8119D519B500ECE647 /* afi10_1801.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7519D519B500ECE647 /* afi10_1801.pdf */; };
 		CE070D8219D519B500ECE647 /* afi11_208_ip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE070D7619D519B500ECE647 /* afi11_208_ip.pdf */; };
@@ -27,9 +28,6 @@
 		CE20F9AC19D6680F00C7DB48 /* ufc_3_270_05.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A619D6680F00C7DB48 /* ufc_3_270_05.pdf */; };
 		CE20F9AD19D6680F00C7DB48 /* ufc_3_270_06.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A719D6680F00C7DB48 /* ufc_3_270_06.pdf */; };
 		CE20F9AE19D6680F00C7DB48 /* ufc_3_535_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE20F9A819D6680F00C7DB48 /* ufc_3_535_01.pdf */; };
-		CE3279A01A79EE5D004E66CD /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE32799B1A79EE5D004E66CD /* FastPdfKit.framework */; };
-		CE3279A21A79EE5D004E66CD /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE32799E1A79EE5D004E66CD /* FPKReaderBundle.bundle */; };
-		CE3279A31A79EE5D004E66CD /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE32799F1A79EE5D004E66CD /* Snippets.txt */; };
 		CE3279A51A79F511004E66CD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3279A41A79F511004E66CD /* CoreMedia.framework */; };
 		CE3279A71A79F51A004E66CD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3279A61A79F51A004E66CD /* AVKit.framework */; };
 		CE61878819C7DE5F00215283 /* Slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE61877D19C7DE5F00215283 /* Slide1.jpg */; };
@@ -101,6 +99,9 @@
 		CEDCBE3819BD5E3E0054F6FD /* ic_action_web_site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2C19BD5E3E0054F6FD /* ic_action_web_site@2x.png */; };
 		CEDCBE3919BD5E3E0054F6FD /* ic_calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDCBE2D19BD5E3E0054F6FD /* ic_calculator@2x.png */; };
 		DE41876F1CC1851F00B0789D /* afi13_204v3_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE41876E1CC1851F00B0789D /* afi13_204v3_1.pdf */; };
+		DE41CE7D216B9DD700D1A0FD /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; };
+		DE41CE7E216BAA6500D1A0FD /* UXReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; };
+		DE41CE7F216BAA6500D1A0FD /* UXReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE84DC03216B84AE00D9267D /* UXReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE65D42C1D9D859F00C895A7 /* afi13_213_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE65D42B1D9D859F00C895A7 /* afi13_213_1.pdf */; };
 		DE81EB42213B4064008A8FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF3213B4064008A8FE5 /* LaunchScreen.storyboard */; };
 		DE81EB43213B4064008A8FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */; };
@@ -141,22 +142,24 @@
 		DE81EB67213B4064008A8FE5 /* FAATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB38213B4064008A8FE5 /* FAATableViewController.m */; };
 		DE81EB68213B4064008A8FE5 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB39213B4064008A8FE5 /* CalcViewController.m */; };
 		DE81EB69213B4064008A8FE5 /* PanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81EB3B213B4064008A8FE5 /* PanAnimationController.m */; };
-		DE91D763216695260084D040 /* Airfield_ManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE91D762216695260084D040 /* Airfield_ManagerUITests.m */; };
 		DE97EDC51D074AC1002396F9 /* 332.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC41D074AC1002396F9 /* 332.pdf */; };
 		DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC61D074D3A002396F9 /* dd175.pdf */; };
 		DE97EDC91D08B106002396F9 /* airfield-manager-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97EDC81D08B106002396F9 /* airfield-manager-icon.png */; };
-		EA9AAD6EF18CCDA7F6F5F3BE /* libPods-Airfield-Manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 332A09D935F69BDD0DF709A8 /* libPods-Airfield-Manager.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DE28AFB62168ECD80041A5A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3032B8871805A10100064F85 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3032B88E1805A10100064F85;
-			remoteInfo = "Airfield-Manager";
+/* Begin PBXCopyFilesBuildPhase section */
+		DE41CE80216BAA6600D1A0FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE41CE7F216BAA6500D1A0FD /* UXReader.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3032B88F1805A10100064F85 /* Airfield-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airfield-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,10 +189,6 @@
 		CE20F9A619D6680F00C7DB48 /* ufc_3_270_05.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_270_05.pdf; sourceTree = "<group>"; };
 		CE20F9A719D6680F00C7DB48 /* ufc_3_270_06.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_270_06.pdf; sourceTree = "<group>"; };
 		CE20F9A819D6680F00C7DB48 /* ufc_3_535_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ufc_3_535_01.pdf; sourceTree = "<group>"; };
-		CE32799B1A79EE5D004E66CD /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
-		CE32799D1A79EE5D004E66CD /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
-		CE32799E1A79EE5D004E66CD /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
-		CE32799F1A79EE5D004E66CD /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
 		CE3279A41A79F511004E66CD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CE3279A61A79F51A004E66CD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		CE61877D19C7DE5F00215283 /* Slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slide1.jpg; sourceTree = "<group>"; };
@@ -336,7 +335,7 @@
 		DE81EB3E213B4064008A8FE5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE81EB3F213B4064008A8FE5 /* LinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinksViewController.h; sourceTree = "<group>"; };
 		DE81EB41213B4064008A8FE5 /* MAJCOMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAJCOMTableViewController.h; sourceTree = "<group>"; };
-		DE91D760216695260084D040 /* Airfield-ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airfield-ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE84DC03216B84AE00D9267D /* UXReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UXReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE91D762216695260084D040 /* Airfield_ManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airfield_ManagerUITests.m; sourceTree = "<group>"; };
 		DE91D764216695260084D040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE97EDC41D074AC1002396F9 /* 332.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 332.pdf; sourceTree = "<group>"; };
@@ -349,6 +348,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE41CE7D216B9DD700D1A0FD /* UXReader.framework in Frameworks */,
 				CE3279A71A79F51A004E66CD /* AVKit.framework in Frameworks */,
 				CE3279A51A79F511004E66CD /* CoreMedia.framework in Frameworks */,
 				CED0B20119B4301E00282472 /* libsqlite3.dylib in Frameworks */,
@@ -360,23 +360,16 @@
 				CE61B07519B14BC70020151A /* libicucore.dylib in Frameworks */,
 				CE61B07319B14BAF0020151A /* libc++.dylib in Frameworks */,
 				CE61B07119B14B970020151A /* ImageIO.framework in Frameworks */,
+				DE41CE7E216BAA6500D1A0FD /* UXReader.framework in Frameworks */,
 				CE61B06F19B14B8D0020151A /* GLKit.framework in Frameworks */,
 				CE61B06D19B14B820020151A /* CoreText.framework in Frameworks */,
-				CE3279A01A79EE5D004E66CD /* FastPdfKit.framework in Frameworks */,
 				CE61B06B19B14B770020151A /* CoreLocation.framework in Frameworks */,
 				CE61B06919B14B6C0020151A /* CoreData.framework in Frameworks */,
 				CE61B06719B14B5F0020151A /* AVFoundation.framework in Frameworks */,
 				3032B8951805A10100064F85 /* CoreGraphics.framework in Frameworks */,
 				3032B8971805A10100064F85 /* UIKit.framework in Frameworks */,
 				3032B8931805A10100064F85 /* Foundation.framework in Frameworks */,
-				EA9AAD6EF18CCDA7F6F5F3BE /* libPods-Airfield-Manager.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE91D75D216695260084D040 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B55AA1D0783EE1CC231906F7 /* libPods-Airfield-Manager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +392,6 @@
 			isa = PBXGroup;
 			children = (
 				3032B88F1805A10100064F85 /* Airfield-Manager.app */,
-				DE91D760216695260084D040 /* Airfield-ManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,9 +399,9 @@
 		3032B8911805A10100064F85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE84DC03216B84AE00D9267D /* UXReader.framework */,
 				CE3279A61A79F51A004E66CD /* AVKit.framework */,
 				CE3279A41A79F511004E66CD /* CoreMedia.framework */,
-				CE32799A1A79EE5D004E66CD /* FastPdfKit.embeddedframework */,
 				CED0B20019B4301E00282472 /* libsqlite3.dylib */,
 				CE61B08319B256B10020151A /* MessageUI.framework */,
 				CE61B07C19B14C2F0020151A /* SystemConfiguration.framework */,
@@ -440,25 +432,6 @@
 				3EC9E74246B5F64A01955CB6 /* Pods-Airfield-Manager.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		CE32799A1A79EE5D004E66CD /* FastPdfKit.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				CE32799B1A79EE5D004E66CD /* FastPdfKit.framework */,
-				CE32799C1A79EE5D004E66CD /* Resources */,
-			);
-			path = FastPdfKit.embeddedframework;
-			sourceTree = "<group>";
-		};
-		CE32799C1A79EE5D004E66CD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CE32799D1A79EE5D004E66CD /* FastPdfKitFramework.xcconfig */,
-				CE32799E1A79EE5D004E66CD /* FPKReaderBundle.bundle */,
-				CE32799F1A79EE5D004E66CD /* Snippets.txt */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		CE61B05A19AFEE990020151A /* Resources */ = {
@@ -674,6 +647,7 @@
 				3032B88D1805A10100064F85 /* Resources */,
 				BB54D9C5C6C35220CC05A718 /* 📦 Copy Pods Resources */,
 				89C34ECA787A533BA36D532E /* [CP] Copy Pods Resources */,
+				DE41CE80216BAA6600D1A0FD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -683,24 +657,6 @@
 			productName = REFrostedViewControllerStoryboards;
 			productReference = 3032B88F1805A10100064F85 /* Airfield-Manager.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DE91D75F216695260084D040 /* Airfield-ManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE91D769216695260084D040 /* Build configuration list for PBXNativeTarget "Airfield-ManagerUITests" */;
-			buildPhases = (
-				DE91D75C216695260084D040 /* Sources */,
-				DE91D75D216695260084D040 /* Frameworks */,
-				DE91D75E216695260084D040 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE28AFB72168ECD80041A5A2 /* PBXTargetDependency */,
-			);
-			name = "Airfield-ManagerUITests";
-			productName = "Airfield-ManagerUITests";
-			productReference = DE91D760216695260084D040 /* Airfield-ManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -715,12 +671,6 @@
 					3032B88E1805A10100064F85 = {
 						DevelopmentTeam = 74R328XGFG;
 						ProvisioningStyle = Automatic;
-					};
-					DE91D75F216695260084D040 = {
-						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = 74R328XGFG;
-						ProvisioningStyle = Manual;
-						TestTargetID = 3032B88E1805A10100064F85;
 					};
 				};
 			};
@@ -747,7 +697,6 @@
 			projectRoot = "";
 			targets = (
 				3032B88E1805A10100064F85 /* Airfield-Manager */,
-				DE91D75F216695260084D040 /* Airfield-ManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -820,7 +769,6 @@
 				CE61879119C7DE5F00215283 /* Slide10.jpg in Resources */,
 				CED142D019E644AE00364658 /* afi13_204v1_afmcsup_i.pdf in Resources */,
 				CEDCBE3319BD5E3E0054F6FD /* ic_action_paste@2x.png in Resources */,
-				CE3279A31A79EE5D004E66CD /* Snippets.txt in Resources */,
 				CE20F9AC19D6680F00C7DB48 /* ufc_3_270_05.pdf in Resources */,
 				CE070D8719D519B500ECE647 /* afi32_1041.pdf in Resources */,
 				CE61878B19C7DE5F00215283 /* Slide4.jpg in Resources */,
@@ -836,17 +784,9 @@
 				CED142DE19E644AE00364658 /* afi13_204v3_usafesup_i.pdf in Resources */,
 				CEDCBE3019BD5E3E0054F6FD /* ic_action_important@2x.png in Resources */,
 				CE61B06319B11BB10020151A /* afi13_204v1.pdf in Resources */,
-				CE3279A21A79EE5D004E66CD /* FPKReaderBundle.bundle in Resources */,
 				CE070D8419D519B500ECE647 /* afi13_213.pdf in Resources */,
 				DE97EDC71D074D3A002396F9 /* dd175.pdf in Resources */,
 				CE6348E719D7568A00E405C1 /* AC150_5300_13A_chg1_interactive.pdf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE91D75E216695260084D040 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,23 +945,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE91D75C216695260084D040 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE91D763216695260084D040 /* Airfield_ManagerUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE28AFB72168ECD80041A5A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3032B88E1805A10100064F85 /* Airfield-Manager */;
-			targetProxy = DE28AFB62168ECD80041A5A2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE81EAF4213B4064008A8FE5 /* InfoPlist.strings */ = {
@@ -1091,8 +1015,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				ONLY_ACTIVE_ARCH = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				SDKROOT = iphoneos;
 			};
@@ -1138,7 +1062,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1157,13 +1081,15 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
 				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1184,74 +1110,20 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Airfield-Manager/SupportingFiles/Airfield-Manager-Prefix.pch";
 				INFOPLIST_FILE = "Airfield-Manager/SupportingFiles/Airfield-Manager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tmillz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Airfield-Manager";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		DE91D767216695260084D040 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 74R328XGFG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Airfield-Manager";
-			};
-			name = Debug;
-		};
-		DE91D768216695260084D040 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 74R328XGFG;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Airfield-ManagerUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "Travis.Airfield-ManagerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Airfield-Manager";
 			};
 			name = Release;
 		};
@@ -1272,15 +1144,6 @@
 			buildConfigurations = (
 				3032B8C21805A10100064F85 /* Debug */,
 				3032B8C31805A10100064F85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		DE91D769216695260084D040 /* Build configuration list for PBXNativeTarget "Airfield-ManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE91D767216695260084D040 /* Debug */,
-				DE91D768216695260084D040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

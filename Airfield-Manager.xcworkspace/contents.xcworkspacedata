@@ -7,4 +7,7 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UXReader-iOS-master/UXReader/UXReader.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FastPdfKit/FastPdfKit.h>
+#import <UXReader/UXReader.h>
 #import "REFrostedViewController.h"
-#import "QuickLook/Quicklook.h"
 
 @class MFDocumentManager;
 
-@interface ETLTableViewController : UITableViewController <UIDocumentInteractionControllerDelegate, QLPreviewControllerDelegate>
+@interface ETLTableViewController : UITableViewController <UIDocumentInteractionControllerDelegate, UXReaderViewControllerDelegate>
 
 -(IBAction)actionOpenPlainDocument:(id)sender;
 

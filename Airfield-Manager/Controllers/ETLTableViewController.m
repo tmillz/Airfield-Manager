@@ -13,7 +13,6 @@ NSString *document;
 @interface ETLTableViewController ()
 
 @property (nonatomic, strong) UIDocumentInteractionController *documentInteractionController;
-@property (nonatomic, strong) QLPreviewController *previewController;
 
 @end
 
@@ -27,11 +26,6 @@ NSString *document;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 
 }
@@ -79,87 +73,54 @@ NSString *document;
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        /*NSURL *URL = [[NSBundle mainBundle] URLForResource:@"etl_01_20" withExtension:@"pdf"];
-        
-        if (URL) {
-            // Initialize Document Interaction Controller
-            self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
-            
-            // Configure Document Interaction Controller
-            [self.documentInteractionController setDelegate:self];
-            
-            // Present Open In Menu
-            //[self.documentInteractionController presentOptionsMenuFromRect:[button frame] inView:self.view animated:YES];
-            [self.documentInteractionController presentPreviewAnimated:YES];
-        }*/
         
         document = @"etl_01_20";
-        [self actionOpenPlainDocument:document];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
         document = @"etl_02_19";
-        [self actionOpenPlainDocument:document];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
         document = @"etl_04_2";
-        [self actionOpenPlainDocument:document];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
         document = @"etl_04_9";
-        [self actionOpenPlainDocument:document];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
         document = @"etl_07_3";
-        [self actionOpenPlainDocument:document];
         
     } else if (indexPath.section == 0 && indexPath.row == 5) {
         
         document = @"etl_97_17";
-        [self actionOpenPlainDocument:document];
         
     } else {
         
     }
+    
+    [self actionOpenPlainDocument:document];
 }
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
-    /** Set document name */
+    
     NSString *documentName = [NSString stringWithFormat:@"%@",document];
-    
-    /** Get temporary directory to save thumbnails */
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    /** Set thumbnails path */
-    NSString *thumbnailsPath = [[paths objectAtIndex:0] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",documentName]];
-    
-    /** Get document from the App Bundle */
     NSURL *documentUrl = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:documentName ofType:@"pdf"]];
+    UXReaderDocument *document = [[UXReaderDocument alloc] initWithURL:documentUrl];
+    UXReaderViewController *readerViewController = [[UXReaderViewController alloc] init];
+    [readerViewController setDelegate:self];
+    [readerViewController setDocument:document];
+    [readerViewController setDisplayMode:UXReaderDisplayModeSinglePageScrollH];
     
-    /** Instancing the documentManager */
-    MFDocumentManager *documentManager = [[MFDocumentManager alloc]initWithFileUrl:documentUrl];
-    
-    /** Instancing the readerViewController */
-    ReaderViewController *pdfViewController = [[ReaderViewController alloc]initWithDocumentManager:documentManager];
-    
-    /** Set resources folder on the manager */
-    documentManager.resourceFolder = thumbnailsPath;
-    
-    /** Set document id for thumbnail generation */
-    pdfViewController.documentId = documentName;
-    
-    /** Present the pdf on screen in a modal view */
-    [self presentViewController:pdfViewController animated:YES completion:nil];
-    
-    /** Release the pdf controller*/
-    //[pdfViewController release];
+    [self presentViewController:readerViewController animated:YES completion:nil];
+}
+
+- (void)dismissReaderViewController:(UXReaderViewController *)viewController {
+    [self dismissViewControllerAnimated:YES completion: nil];
 }
 
 @end

@@ -13,7 +13,6 @@ NSString *documentFAA;
 @interface FAATableViewController ()
 
 @property (nonatomic, strong) UIDocumentInteractionController *documentInteractionController;
-@property (nonatomic, strong) QLPreviewController *previewController;
 
 @end
 
@@ -26,14 +25,7 @@ NSString *documentFAA;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -78,127 +70,49 @@ NSString *documentFAA;
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        /*NSURL *URL = [[NSBundle mainBundle] URLForResource:@"AC150_5200_18C" withExtension:@"pdf"];
-        
-        if (URL) {
-            // Initialize Document Interaction Controller
-            self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
-            
-            // Configure Document Interaction Controller
-            [self.documentInteractionController setDelegate:self];
-            
-            // Present Open In Menu
-            //[self.documentInteractionController presentOptionsMenuFromRect:[button frame] inView:self.view animated:YES];
-            [self.documentInteractionController presentPreviewAnimated:YES];
-        }*/
         
         documentFAA = @"AC150_5200_18C";
-        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
         documentFAA = @"AC150_5300_13A_chg1_interactive";
-        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
         documentFAA = @"AC150_5340_1l";
-        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
         documentFAA = @"AC150_5200_18C";
-        [self actionOpenPlainDocument:documentFAA];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
         documentFAA = @"AC150_5345_44j";
-        [self actionOpenPlainDocument:documentFAA];
         
     } else {
         
     }
+    [self actionOpenPlainDocument:documentFAA];
 }
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
-    /** Set document name */
+    
     NSString *documentName = [NSString stringWithFormat:@"%@",documentFAA];
-    
-    /** Get temporary directory to save thumbnails */
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    /** Set thumbnails path */
-    NSString *thumbnailsPath = [[paths objectAtIndex:0] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",documentName]];
-    
-    /** Get document from the App Bundle */
     NSURL *documentUrl = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:documentName ofType:@"pdf"]];
+    UXReaderDocument *document = [[UXReaderDocument alloc] initWithURL:documentUrl];
+    UXReaderViewController *readerViewController = [[UXReaderViewController alloc] init];
+    [readerViewController setDelegate:self];
+    [readerViewController setDocument:document];
+    [readerViewController setDisplayMode:UXReaderDisplayModeSinglePageScrollH];
     
-    /** Instancing the documentManager */
-    MFDocumentManager *documentManager = [[MFDocumentManager alloc]initWithFileUrl:documentUrl];
-    
-    /** Instancing the readerViewController */
-    ReaderViewController *pdfViewController = [[ReaderViewController alloc]initWithDocumentManager:documentManager];
-    
-    /** Set resources folder on the manager */
-    documentManager.resourceFolder = thumbnailsPath;
-    
-    /** Set document id for thumbnail generation */
-    pdfViewController.documentId = documentName;
-    
-    /** Present the pdf on screen in a modal view */
-    [self presentViewController:pdfViewController animated:YES completion:nil];
-    
-    /** Release the pdf controller*/
-    //[pdfViewController release];
+    [self presentViewController:readerViewController animated:YES completion: nil];
 }
 
-
-/*
- // Override to support conditional editing of the table view.
- - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the specified item to be editable.
- return YES;
- }
- */
-
-/*
- // Override to support editing the table view.
- - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
- if (editingStyle == UITableViewCellEditingStyleDelete) {
- // Delete the row from the data source
- [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
- } else if (editingStyle == UITableViewCellEditingStyleInsert) {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
- }
- }
- */
-
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
- }
- */
-
-/*
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
- }
- */
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)dismissReaderViewController:(UXReaderViewController *)viewController {
+    [self dismissViewControllerAnimated:YES completion: nil];
+}
 
 @end

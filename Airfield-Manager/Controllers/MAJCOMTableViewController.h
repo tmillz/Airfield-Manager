@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FastPdfKit/FastPdfKit.h>
+#import <UXReader/UXReader.h>
 #import "REFrostedViewController.h"
-#import "QuickLook/Quicklook.h"
 
-@interface MAJCOMTableViewController : UITableViewController <UIDocumentInteractionControllerDelegate, QLPreviewControllerDelegate>
+@interface MAJCOMTableViewController : UITableViewController <UIDocumentInteractionControllerDelegate, UXReaderViewControllerDelegate>
 
 -(IBAction)actionOpenPlainDocument:(id)sender;
 

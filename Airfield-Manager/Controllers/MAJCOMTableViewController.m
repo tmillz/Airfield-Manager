@@ -13,7 +13,6 @@ NSString *documentM;
 @interface MAJCOMTableViewController ()
 
 @property (nonatomic, strong) UIDocumentInteractionController *documentInteractionController;
-@property (nonatomic, strong) QLPreviewController *previewController;
 
 @end
 
@@ -26,14 +25,7 @@ NSString *documentM;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -92,177 +84,91 @@ NSString *documentM;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        /*NSURL *URL = [[NSBundle mainBundle] URLForResource:@"afi13_204v1_accsup" withExtension:@"pdf"];
-        
-        if (URL) {
-            // Initialize Document Interaction Controller
-            self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
-            
-            // Configure Document Interaction Controller
-            [self.documentInteractionController setDelegate:self];
-            
-            // Present Open In Menu
-            //[self.documentInteractionController presentOptionsMenuFromRect:[button frame] inView:self.view animated:YES];
-            [self.documentInteractionController presentPreviewAnimated:YES];
-        }*/
-        
+
         documentM = @"afi13_204v1_accsup";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 1) {
         
         documentM = @"afi13_204v1_afmcsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 2) {
         
         documentM = @"afi13_204v1_afspcsup";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 3) {
         
         documentM = @"afi13_204v1_pacafsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 4) {
         
         documentM = @"afi13_204v1_usafesup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 5) {
         
         documentM = @"afi13_204v2_accsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 6) {
         
         documentM = @"afi13_204v2_afmcsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 7) {
         
         documentM = @"afi13_204v2_usafesup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 8) {
         
         documentM = @"afi13_204v3_accsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 9) {
         
         documentM = @"afi13_204v3_aetcsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 10) {
         
         documentM = @"afi13_204v3_afmcsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 11) {
         
         documentM = @"afi13_204v3_afsocsup";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 12) {
         
         documentM = @"afi13_204v3_amcsup_amcgm1";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 13) {
         
         documentM = @"afi13_204v3_amcsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 14) {
         
         documentM = @"afi13_204v3_pacafsup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else if (indexPath.section == 0 && indexPath.row == 15) {
         
         documentM = @"afi13_204v3_usafesup_i";
-        [self actionOpenPlainDocument:documentM];
         
     } else {
         
     }
+    
+    [self actionOpenPlainDocument:documentM];
 }
 
 -(IBAction)actionOpenPlainDocument:(id)sender{
-    /** Set document name */
+    
     NSString *documentName = [NSString stringWithFormat:@"%@",documentM];
-    
-    /** Get temporary directory to save thumbnails */
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    
-    /** Set thumbnails path */
-    NSString *thumbnailsPath = [[paths objectAtIndex:0] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",documentName]];
-    
-    /** Get document from the App Bundle */
     NSURL *documentUrl = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:documentName ofType:@"pdf"]];
+    UXReaderDocument *document = [[UXReaderDocument alloc] initWithURL:documentUrl];
+    UXReaderViewController *readerViewController = [[UXReaderViewController alloc] init];
+    [readerViewController setDelegate:self];
+    [readerViewController setDocument:document];
+    [readerViewController setDisplayMode:UXReaderDisplayModeSinglePageScrollH];
     
-    /** Instancing the documentManager */
-    MFDocumentManager *documentManager = [[MFDocumentManager alloc]initWithFileUrl:documentUrl];
-    
-    /** Instancing the readerViewController */
-    ReaderViewController *pdfViewController = [[ReaderViewController alloc]initWithDocumentManager:documentManager];
-    
-    /** Set resources folder on the manager */
-    documentManager.resourceFolder = thumbnailsPath;
-    
-    /** Set document id for thumbnail generation */
-    pdfViewController.documentId = documentName;
-    
-    /** Present the pdf on screen in a modal view */
-    [self presentViewController:pdfViewController animated:YES completion:nil];
-    
-    /** Release the pdf controller*/
-    //[pdfViewController release];
+    [self presentViewController:readerViewController animated:YES completion: nil];
 }
 
-/*
- // Override to support conditional editing of the table view.
- - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the specified item to be editable.
- return YES;
- }
- */
-
-/*
- // Override to support editing the table view.
- - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
- if (editingStyle == UITableViewCellEditingStyleDelete) {
- // Delete the row from the data source
- [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
- } else if (editingStyle == UITableViewCellEditingStyleInsert) {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
- }
- }
- */
-
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
- }
- */
-
-/*
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
- }
- */
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)dismissReaderViewController:(UXReaderViewController *)viewController {
+    [self dismissViewControllerAnimated:YES completion: nil];
+}
 
 @end

@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FastPdfKit/FastPdfKit.h>
+#import <UXReader/UXReader.h>
 #import "REFrostedViewController.h"
-#import "QuickLook/Quicklook.h"
 
-@interface FormsViewController : UIViewController <UIDocumentInteractionControllerDelegate, QLPreviewControllerDelegate>
+@interface FormsViewController : UIViewController <UIDocumentInteractionControllerDelegate, UXReaderViewControllerDelegate>
 
 //@property (nonatomic, retain) IBOutlet UIWebView *webView;
 @property (nonatomic, retain) IBOutlet UIButton *workOrder;
